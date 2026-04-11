@@ -63,7 +63,7 @@ We build open-source tools at the intersection of AI agents, cybersecurity, and 
 ### 📖 Book
 
 <a href="https://a.co/d/07Fndacy">
-  <img src="https://raw.githubusercontent.com/sw30labs/.github/main/profile/book1cover.png" width="150" alt="AI Agents in Cybersecurity" align="left" />
+  <img src="https://github.com/sw30labs/.github/blob/main/book1cover.png" width="150" alt="AI Agents in Cybersecurity" align="left" />
 </a>
 
 **AI Agents in Cybersecurity** — A Practitioner's Guide, from Strategy to Implementation.
