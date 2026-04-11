@@ -68,6 +68,8 @@ We build open-source tools at the intersection of AI agents, cybersecurity, and 
 
 **AI Agents in Cybersecurity** — A Practitioner's Guide, from Strategy to Implementation.
 
+How autonomous agents are transforming enterprise security — from automating SOC operations and incident triage to building multi-agent defense systems. Includes real-world case studies, practical frameworks, and a hands-on lab companion.
+
 [![Apple Books](https://img.shields.io/badge/Apple_Books-000000?style=for-the-badge&logo=apple&logoColor=white)](https://books.apple.com/us/book/ai-agents-in-cybersecurity/id6751737181)
 [![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://a.co/d/07Fndacy)
 [![GitHub](https://img.shields.io/badge/Companion_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ai-agents-cybersecurity/complete)
