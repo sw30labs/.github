@@ -1,22 +1,65 @@
-# Hey, I'm Nic 👋
+# SW3.0 Labs
 
-AI/ML engineer and cybersecurity practitioner building at the intersection of agentic AI, LLM security, and local inference.
+**Building the inference layer as the primary enterprise operating layer.**
 
-**📖 Author** of [AI Agents in Cybersecurity](https://github.com/ai-agents-cybersecurity/complete)
-
-**🔬 Open-source work** lives at **[SW3.0 Labs](https://github.com/sw30labs)** — AI security tools, OSCAL compliance-as-code, agentic frameworks, and Apple Silicon inference.
-
-**🔒 Current focus:** [TSLIT](https://github.com/sw30labs/TSLIT) — adversarial evaluation harness for local LLMs, detecting backdoors, affiliation bias, and temporal logic bombs.
+We build open-source tools at the intersection of AI agents, cybersecurity, and local inference — with a bias toward production-grade security, Apple Silicon optimization, and agentic automation.
 
 ---
 
-### Elsewhere
+### 🔒 AI Security & Pentesting
 
-- 🏢 Enterprise AI/ML consulting — Azure, LangChain, LangGraph
-- ✍️ Writing on [LinkedIn](https://linkedin.com) about SW3.0 and the inference-first enterprise
-- 🔧 Car stuff: Hummer H2 with long tubes, cat delete, CAI & HP Tuners
-```ity get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+| Repo | What it does |
+|------|-------------|
+| [TSLIT](https://github.com/sw30labs/TSLIT) | Time-Shift LLM Integrity Tester — 3,840-prompt adversarial evaluation harness for local LLMs |
+| [pentest-regulatory-intel](https://github.com/sw30labs/pentest-regulatory-intel) | AI pentesting regulatory intelligence across 20+ financial jurisdictions |
+| [strixresearch](https://github.com/sw30labs/strixresearch) | Research docs for Strix autonomous pentesting platform |
+| [agentic-ai-pentesting](https://github.com/sw30labs/agentic-ai-pentesting) | Agentic AI for Layer 7 penetration testing |
+
+### 🛡️ OSCAL & Compliance-as-Code
+
+| Repo | What it does |
+|------|-------------|
+| [oscal-agent-guardrails](https://github.com/sw30labs/oscal-agent-guardrails) | OSCAL controls as policy guardrails for LangGraph agents |
+| [oscal-digital-twin-playground](https://github.com/sw30labs/oscal-digital-twin-playground) | OSCAL-backed digital twin with risk assessment agents |
+| [oscal-zero-trust-lens](https://github.com/sw30labs/oscal-zero-trust-lens) | Zero Trust semantic overlay on OSCAL controls |
+| [oscal-agent-lab](https://github.com/sw30labs/oscal-agent-lab) | Multi-agent copilot for OSCAL catalogs and SSPs |
+| [oscal-cac-playgd](https://github.com/sw30labs/oscal-cac-playgd) | Compliance-as-code CLI using real NIST OSCAL JSON |
+
+### 🤖 Agentic Frameworks & Tooling
+
+| Repo | What it does |
+|------|-------------|
+| [agent-stack](https://github.com/sw30labs/agent-stack) | Interactive 10-layer Agent Stack architecture visualization |
+| [deepagent-azure-cli](https://github.com/sw30labs/deepagent-azure-cli) | LangChain DeepAgents + Azure OpenAI coding assistant CLI |
+| [N8n2langraph](https://github.com/sw30labs/N8n2langraph) | Convert n8n workflows to standalone LangGraph scripts |
+| [sst-autoresearch](https://github.com/sw30labs/sst-autoresearch) | Autonomous research pipeline |
+| [projectpulse](https://github.com/sw30labs/projectpulse) | SAP meetings → knowledge base + podcast via LangGraph |
+
+### ⚡ Local Inference on Apple Silicon
+
+| Repo | What it does |
+|------|-------------|
+| [tars-ai](https://github.com/sw30labs/tars-ai) | Talk to TARS — fully local voice agent on MLX, no API keys |
+| [screenlens](https://github.com/sw30labs/screenlens) | Local video scene intelligence for Apple Silicon |
+| [qwenbench-mlx](https://github.com/sw30labs/qwenbench-mlx) | Benchmark the full Qwen 3.5 family (0.8B–35B) on Apple Silicon |
+| [mlx-distillation-explained](https://github.com/sw30labs/mlx-distillation-explained) | Educational: model distillation with Claude teacher + MLX student |
+| [local-mlx-responsesAPI-server](https://github.com/sw30labs/local-mlx-responsesAPI-server) | OpenAI-compatible local inference server via MLX |
+| [audiobook_generator](https://github.com/sw30labs/audiobook_generator) | Books → audiobooks with Qwen3-TTS + LangGraph |
+| [QWEN3-VL-Python-OCR-Script-MLX](https://github.com/sw30labs/QWEN3-VL-Python-OCR-Script-MLX) | Image captioning with local MLX vision-language models |
+| [MLX-YouTubeScribe](https://github.com/sw30labs/MLX-YouTubeScribe) | Audio/video transcription with WhisperX |
+
+### 🔧 Developer Tools
+
+| Repo | What it does |
+|------|-------------|
+| [gitnexus_fleet](https://github.com/sw30labs/gitnexus_fleet) | Clone, index, and query your entire GitHub fleet via MCP |
+
+---
+
+### 📖 Book
+
+**[AI Agents in Cybersecurity](https://github.com/ai-agents-cybersecurity/complete)** — published book with companion code, available on the author's personal GitHub.
+
+---
+
+*Built by [Nic Cravino](https://github.com/ai-agents-cybersecurity) · AI/ML Engineering · Cybersecurity · Enterprise Automation*
