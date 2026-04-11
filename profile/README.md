@@ -62,7 +62,15 @@ We build open-source tools at the intersection of AI agents, cybersecurity, and 
 
 ### 📖 Book
 
-**[AI Agents in Cybersecurity](https://github.com/ai-agents-cybersecurity/complete)** — published book with companion code, available on the author's personal GitHub.
+**AI Agents in Cybersecurity** — published book with companion code.
+
+<p align="center">
+  <img src="https://github.com/sw30labs/.github/blob/main/book1cover.png?raw=true" alt="aiagentsbookcover" />
+</p>
+
+[![Apple Books](https://img.shields.io/badge/Apple_Books-000000?style=for-the-badge&logo=apple&logoColor=white)](https://books.apple.com/us/book/ai-agents-in-cybersecurity/id6751737181)
+[![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://a.co/d/07Fndacy)
+
 
 ---
 
