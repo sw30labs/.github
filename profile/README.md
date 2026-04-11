@@ -3,7 +3,7 @@
 **Building the inference layer as the primary enterprise operating layer.**
 
 <p align="center">
-  <img src="https://github.com/sw30labs/.github/blob/main/sw30evolution.png?raw=true" width="200" alt="SW 3.0 Labs" />
+  <img src="https://github.com/sw30labs/.github/blob/main/sw30evolution.png?raw=true" alt="SW 3.0 Labs" />
 </p>
 
 We build open-source tools at the intersection of AI agents, cybersecurity, and local inference — with a bias toward production-grade security, Apple Silicon optimization, and agentic automation.
