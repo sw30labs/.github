@@ -1,7 +1,7 @@
 # SW3.0 Labs
 
 <a href="https://github.com/sw30labs/.github/wiki">
-  <img src="https://github.com/sw30labs/.github/blob/main/wiki-icon.png" width="150" alt="SW3.0 Labs wiki" align="left" />
+  <img src="https://github.com/sw30labs/.github/blob/main/wiki-icon.png" width="30" alt="SW3.0 Labs wiki" align="left" />
 </a>
 
 **Building the inference layer as the primary enterprise operating layer.**
