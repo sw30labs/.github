@@ -1,12 +1,16 @@
 # SW3.0 Labs
 
+<a href="https://github.com/sw30labs/.github/wiki">
+  <img src="https://github.com/sw30labs/.github/blob/main/wiki-icon.png" width="150" alt="SW3.0 Labs wiki" align="left" />
+</a>
+
 **Building the inference layer as the primary enterprise operating layer.**
 
 <p align="center">
   <img src="https://github.com/sw30labs/.github/blob/main/sw30evolution.png?raw=true" alt="SW 3.0 Labs" />
 </p>
 
-We build open-source tools at the intersection of AI agents, cybersecurity, and local inference — with a bias toward production-grade security, Apple Silicon optimization, and agentic automation.
+*"We build open-source tools at the intersection of AI agents, cybersecurity, and local inference — with a bias toward production-grade security, Apple Silicon optimization, and agentic automation."*
 
 ---
 
