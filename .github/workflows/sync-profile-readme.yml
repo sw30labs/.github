@@ -1,0 +1,53 @@
+# Rebuilds profile/README.md from the wiki's Home.md so the org landing page
+# never drifts from the wiki. The wiki is the single source of truth; the
+# README section between the wiki-home markers is a generated artifact.
+#
+# Triggers:
+#   - gollum:            wiki page created/updated (fires at least on web-UI
+#                        edits; git pushes to the wiki are covered below)
+#   - schedule:          6-hourly backstop, catches wiki updates pushed via
+#                        git (e.g. the wiki-curator bundle flow)
+#   - workflow_dispatch: manual "Run workflow" button in the Actions tab
+name: Sync profile README from wiki
+
+on:
+  gollum:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-profile-readme
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Clone the wiki
+        run: git clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.wiki.git" /tmp/wiki
+
+      - name: Regenerate profile/README.md from wiki Home
+        run: |
+          python3 .github/scripts/wiki_home_to_readme.py \
+            --home /tmp/wiki/Home.md \
+            --wiki-dir /tmp/wiki \
+            --readme profile/README.md
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "profile/README.md already in sync with the wiki."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "chore(profile): sync README from wiki Home"
+          git push
