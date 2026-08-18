@@ -18,7 +18,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 59 | **Articles:** 34 | **Last updated:** 2026-08-18
+**Author:** Nicolas Cravino | **Repos:** 52 live *(7 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-18
 
 ---
 
@@ -32,7 +32,6 @@ LLM integrity testing, regulatory intelligence for global pentest compliance, au
 | [pentest-regulatory-intel](https://github.com/sw30labs/pentest-regulatory-intel) | RegIntel — AI-powered pentest regulation inventory across 20+ jurisdictions with reflection quality gates |
 | [strixresearch](https://github.com/sw30labs/strix-research) | Research and documentation for the Strix autonomous AI pentesting platform |
 | [agentic-ai-pentesting](https://github.com/sw30labs/agentic-ai-pentesting) | Book companion — two approaches to AI-assisted pentesting (autonomous platform + Burp Suite co-pilot) |
-| [NVD-Extractor](https://github.com/sw30labs/NVD-Extractor) | Extract critical network-attack-vector CVEs from the NVD API, filtered for Linux/Windows/external APIs |
 | [skillspector-trial](https://github.com/sw30labs/skillspector-trial) | Skillspector — single-file offline scanner grading Agent Skills A–F on security + quality, now with an optional loopback oMLX "AI Analyst" that triages, adjudicates, and issues an install verdict (static evidence stream for oscal-skills-guardrails) |
 | [strix-omlx](https://github.com/sw30labs/strix-omlx) | Points the Strix autonomous pentest agent at a local OMLX MLX server (abliterated MiniMax-M2) — fully local, LiteLLM routing; companion to strixresearch |
 | [tslit-dspy-ar](https://github.com/sw30labs/tslit-dspy-ar) | TSLIT v0.2 — DSPy/MIPROv2-compiled integrity analyzer with an autoresearch self-improvement loop ("fighting AI with AI") |
@@ -74,7 +73,6 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 | [N8n2langraph](https://github.com/sw30labs/N8n2langraph) | Convert n8n workflow JSON into standalone LangGraph Python scripts |
 | [sst-autoresearch](https://github.com/sw30labs/sst-autoresearch) | Speaker voice dynamics analysis via Karpathy-style autoresearch loop (Takens' embedding, Lyapunov) |
 | [ralph-dgx](https://github.com/sw30labs/ralph-dgx) | DeepAgents Code CLI + Ralph goal loop on DGX Spark — install→patch→overlay harness against local vLLM (Qwen3-Coder-Next-FP8) |
-| [AutogenRequirementsAgent](https://github.com/sw30labs/AutogenRequirementsAgent) | Experiment in strict JSON inter-agent messaging with nested GroupChat and local Ollama LLMs |
 | [wiki-vs-rag](https://github.com/sw30labs/wiki-vs-rag) | Four-arm benchmark over the sw30labs wiki — single-shot RAG vs agentic-RAG vs wiki-nav vs QMD; agentic-RAG wins Pareto |
 | [langgraph-checkpoints-vs-stores](https://github.com/sw30labs/langgraph-checkpoints-vs-stores) | Runnable offline reference — thread-scoped checkpoints vs cross-thread stores, real StateGraph/InMemorySaver/InMemoryStore, CI-gated; production backends (SQLite/Postgres/Redis) + HITL/time-travel chapters |
 | [venture-pathfinder](https://github.com/sw30labs/venture-pathfinder) | Scans local repos into a Neo4j graph, then LangGraph + a Fabric-style Pattern Engine (local OMLX) surfaces recurring patterns and white-space venture paths — plus a loopback command deck (Situation Room, Venture Radar, Sparring Room) |
@@ -134,11 +132,7 @@ CLI utilities, code intelligence, and infrastructure for managing repository fle
 | Repository | Description |
 |---|---|
 | [gitnexus_fleet](https://github.com/sw30labs/gitnexus_fleet) | Clone, index (KuzuDB graph), and query entire GitHub orgs via MCP + web dashboard |
-| [AutogenDocGenerator](https://github.com/sw30labs/AutogenDocGenerator) | AutoGen-powered repo documentation generator with GroupChat agents |
-| [AutogenMermaidGenerator](https://github.com/sw30labs/AutogenMermaidGenerator) | AutoGen GroupChat source code → Mermaid diagram generator |
-| [OllamaPDF2Markdown](https://github.com/sw30labs/OllamaPDF2Markdown) | PDF → Markdown via Ollama multimodal models (Mistral Small 3.1 24B) |
 | [RepoBundle](https://github.com/sw30labs/RepoBundle) | Export/import Git repos as single human-readable text files |
-| [Word-to-Markdown-Converter](https://github.com/sw30labs/Word-to-Markdown-Converter) | .docx → Markdown converter preserving headings, lists, tables |
 | [animated-GIF-Creator](https://github.com/sw30labs/animated-GIF-Creator) | Image folder or MOV → animated GIF with auto-resize |
 | [nemotron-parse-spark](https://github.com/sw30labs/nemotron-parse-spark) | NVIDIA Nemotron Parse v1.2 harness for DGX Spark (Grace Blackwell GB10) — PDF → structured text + bounding boxes |
 | [cleanroom](https://github.com/sw30labs/cleanroom) | Agentic file-hygiene pipeline — Analyze → Recommend → Remediate → QA over one file via LangGraph, oMLX or DGX vLLM, honest about what it can and can't verify |
@@ -161,18 +155,18 @@ page under the "Related Articles" heading.
 
 ### 🧩 Cross-cutting patterns
 
-Across all 57 repositories, several architectural patterns recur
+Across all 52 live repositories, several architectural patterns recur
 (counts from the `stacks:` frontmatter of repo stubs, see [Sitemap-Stacks](https://github.com/sw30labs/.github/wiki/Sitemap-Stacks)):
 
-- **Agentic** — multi-agent orchestration / tool-using agents (26 repos)
 - **LangGraph / LangChain** — dominant orchestration framework (24 repos)
+- **Agentic** — multi-agent orchestration / tool-using agents (23 repos)
 - **Apple MLX** — on-device inference on Apple Silicon (20 repos)
-- **CLI / Tooling** — command-line utilities and workflow glue (19 repos)
+- **CLI / Tooling** — command-line utilities and workflow glue (18 repos)
 - **Compliance** — regulatory frameworks, controls mapping (11 repos)
-- **Converter** — file-format conversion, OCR, doc-to-markdown (10 repos)
 - **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (9 repos)
 - **OSCAL** — NIST OSCAL data model (SSPs, profiles, controls) (9 repos)
-- **Pentest** — offensive security, red-teaming, vulnerability discovery (8 repos)
+- **Pentest** — offensive security, red-teaming, vulnerability discovery (7 repos)
+- **Converter** — file-format conversion, OCR, doc-to-markdown (6 repos)
 - **RAG** — retrieval-augmented generation, vector stores (4 repos)
 - **MCP** — Model Context Protocol servers / tooling (2 repos)
 - **Pydantic** for data validation (nearly universal)
