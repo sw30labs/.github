@@ -18,7 +18,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 57 | **Articles:** 34 | **Last updated:** 2026-07-29
+**Author:** Nicolas Cravino | **Repos:** 59 | **Articles:** 34 | **Last updated:** 2026-08-18
 
 ---
 
@@ -33,7 +33,7 @@ LLM integrity testing, regulatory intelligence for global pentest compliance, au
 | [strixresearch](https://github.com/sw30labs/strix-research) | Research and documentation for the Strix autonomous AI pentesting platform |
 | [agentic-ai-pentesting](https://github.com/sw30labs/agentic-ai-pentesting) | Book companion — two approaches to AI-assisted pentesting (autonomous platform + Burp Suite co-pilot) |
 | [NVD-Extractor](https://github.com/sw30labs/NVD-Extractor) | Extract critical network-attack-vector CVEs from the NVD API, filtered for Linux/Windows/external APIs |
-| [skillspector-trial](https://github.com/sw30labs/skillspector-trial) | Skillspector — single-file offline scanner grading Agent Skills A–F on security + quality (the static evidence stream for oscal-skills-guardrails) |
+| [skillspector-trial](https://github.com/sw30labs/skillspector-trial) | Skillspector — single-file offline scanner grading Agent Skills A–F on security + quality, now with an optional loopback oMLX "AI Analyst" that triages, adjudicates, and issues an install verdict (static evidence stream for oscal-skills-guardrails) |
 | [strix-omlx](https://github.com/sw30labs/strix-omlx) | Points the Strix autonomous pentest agent at a local OMLX MLX server (abliterated MiniMax-M2) — fully local, LiteLLM routing; companion to strixresearch |
 | [tslit-dspy-ar](https://github.com/sw30labs/tslit-dspy-ar) | TSLIT v0.2 — DSPy/MIPROv2-compiled integrity analyzer with an autoresearch self-improvement loop ("fighting AI with AI") |
 | [tslit-dspy-dgx](https://github.com/sw30labs/tslit-dspy-dgx) | TSLIT-DSPy on DGX Spark — local vLLM, NVIDIA Nemotron detection brain (non-adversary models only; Qwen/DeepSeek are scan targets) |
@@ -77,7 +77,7 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 | [AutogenRequirementsAgent](https://github.com/sw30labs/AutogenRequirementsAgent) | Experiment in strict JSON inter-agent messaging with nested GroupChat and local Ollama LLMs |
 | [wiki-vs-rag](https://github.com/sw30labs/wiki-vs-rag) | Four-arm benchmark over the sw30labs wiki — single-shot RAG vs agentic-RAG vs wiki-nav vs QMD; agentic-RAG wins Pareto |
 | [langgraph-checkpoints-vs-stores](https://github.com/sw30labs/langgraph-checkpoints-vs-stores) | Runnable offline reference — thread-scoped checkpoints vs cross-thread stores, real StateGraph/InMemorySaver/InMemoryStore, CI-gated; production backends (SQLite/Postgres/Redis) + HITL/time-travel chapters |
-| [venture-pathfinder](https://github.com/sw30labs/venture-pathfinder) | Scans local repos into a Neo4j graph, then LangGraph + a Fabric-style Pattern Engine (local OMLX) surfaces recurring patterns and white-space venture paths |
+| [venture-pathfinder](https://github.com/sw30labs/venture-pathfinder) | Scans local repos into a Neo4j graph, then LangGraph + a Fabric-style Pattern Engine (local OMLX) surfaces recurring patterns and white-space venture paths — plus a loopback command deck (Situation Room, Venture Radar, Sparring Room) |
 
 **Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks)
 
@@ -89,8 +89,8 @@ On-device AI toolkit for Apple Silicon — inference serving, benchmarking, dist
 
 | Repository | Description |
 |---|---|
-| [tars-ai](https://github.com/sw30labs/tars-ai) | TARS from Interstellar as a local voice agent — LLM + TTS served by a local OMLX server (OpenAI protocol), zero cloud |
-| [screen-lens-mlx](https://github.com/sw30labs/screen-lens-mlx) | Video scene intelligence — hybrid keyframe detection, Qwen3.5-VL captioning via local oMLX server, ChromaDB search, code/docs/demo reconstruction (renamed from screen-lens; DGX fork below) |
+| [tars-ai](https://github.com/sw30labs/tars-ai) | TARS from Interstellar as a local voice agent — LLM + TTS served by a local OMLX server (OpenAI protocol), zero cloud; LangGraph dropped July 2026 for a plain orchestrator, now with a multi-character crew and a TUI |
+| [screen-lens-mlx](https://github.com/sw30labs/screen-lens-mlx) | Video scene intelligence — hybrid keyframe detection, local VLM captioning, ChromaDB search, code/docs/demo reconstruction. Re-converged to dual-platform in Aug 2026: one client over vLLM/CUDA *or* oMLX/MPS, split vision/text model roles, web command deck |
 | [qwenbench-mlx](https://github.com/sw30labs/qwenbench-mlx) | Benchmark suite for Qwen 3.5 family (0.8B→35B) with auto-judge and cost-efficiency scoring |
 | [mlx-distillation-explained](https://github.com/sw30labs/mlx-distillation-explained) | Educational distillation PoC — Claude Sonnet → Llama 3.1 8B via LoRA on Apple Silicon |
 | [mlx-responses-api-server](https://github.com/sw30labs/mlx-responses-api-server) | OpenAI/Azure/Anthropic-compatible local inference server with tool calling (renamed from local-mlx-responsesAPI-server) |
@@ -121,6 +121,7 @@ CUDA counterpart to the MLX toolkit — local inference on NVIDIA DGX Spark (GB1
 |---|---|
 | [bonsai-ternary-27b-dgx](https://github.com/sw30labs/bonsai-ternary-27b-dgx) | Ternary Bonsai 27B chat stack — PrismML llama.cpp CUDA fork, llama-server (OpenAI-compatible :8080), Textual TUI with thinking stream |
 | [screen-lens-dgx](https://github.com/sw30labs/screen-lens-dgx) | DGX-only ScreenLens fork — vLLM (Qwen3.6-27B-FP8) captioning, OpenCLIP on CUDA, ChromaDB, Docker compose path |
+| [AI-OS-1](https://github.com/sw30labs/AI-OS-1) | Research corpus (no runtime) for a model-aware distributed inference OS on N ≥ 2 DGX Sparks — paper, frozen schemas, append-only design forum |
 
 **Category page:** [local-inference-dgx](https://github.com/sw30labs/.github/wiki/local-inference-dgx)
 
@@ -140,6 +141,7 @@ CLI utilities, code intelligence, and infrastructure for managing repository fle
 | [Word-to-Markdown-Converter](https://github.com/sw30labs/Word-to-Markdown-Converter) | .docx → Markdown converter preserving headings, lists, tables |
 | [animated-GIF-Creator](https://github.com/sw30labs/animated-GIF-Creator) | Image folder or MOV → animated GIF with auto-resize |
 | [nemotron-parse-spark](https://github.com/sw30labs/nemotron-parse-spark) | NVIDIA Nemotron Parse v1.2 harness for DGX Spark (Grace Blackwell GB10) — PDF → structured text + bounding boxes |
+| [cleanroom](https://github.com/sw30labs/cleanroom) | Agentic file-hygiene pipeline — Analyze → Recommend → Remediate → QA over one file via LangGraph, oMLX or DGX vLLM, honest about what it can and can't verify |
 
 **Category page:** [developer-tools](https://github.com/sw30labs/.github/wiki/developer-tools)
 
@@ -162,15 +164,16 @@ page under the "Related Articles" heading.
 Across all 57 repositories, several architectural patterns recur
 (counts from the `stacks:` frontmatter of repo stubs, see [Sitemap-Stacks](https://github.com/sw30labs/.github/wiki/Sitemap-Stacks)):
 
+- **Agentic** — multi-agent orchestration / tool-using agents (26 repos)
 - **LangGraph / LangChain** — dominant orchestration framework (24 repos)
-- **Agentic** — multi-agent orchestration / tool-using agents (24 repos)
-- **Apple MLX** — on-device inference on Apple Silicon (18 repos)
-- **CLI / Tooling** — command-line utilities and workflow glue (18 repos)
-- **Converter** — file-format conversion, OCR, doc-to-markdown (10 repos)
+- **Apple MLX** — on-device inference on Apple Silicon (20 repos)
+- **CLI / Tooling** — command-line utilities and workflow glue (19 repos)
 - **Compliance** — regulatory frameworks, controls mapping (11 repos)
-- **Pentest** — offensive security, red-teaming, vulnerability discovery (8 repos)
+- **Converter** — file-format conversion, OCR, doc-to-markdown (10 repos)
+- **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (9 repos)
 - **OSCAL** — NIST OSCAL data model (SSPs, profiles, controls) (9 repos)
-- **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (6 repos)
+- **Pentest** — offensive security, red-teaming, vulnerability discovery (8 repos)
+- **RAG** — retrieval-augmented generation, vector stores (4 repos)
 - **MCP** — Model Context Protocol servers / tooling (2 repos)
 - **Pydantic** for data validation (nearly universal)
 - **Typer + Rich** or **Click + Rich** for CLI interfaces
