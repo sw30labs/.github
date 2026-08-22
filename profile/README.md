@@ -18,7 +18,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 52 live *(7 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-18
+**Author:** Nicolas Cravino | **Repos:** 44 live *(18 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-22
 
 ---
 
@@ -36,6 +36,7 @@ LLM integrity testing, regulatory intelligence for global pentest compliance, au
 | [strix-omlx](https://github.com/sw30labs/strix-omlx) | Points the Strix autonomous pentest agent at a local OMLX MLX server (abliterated MiniMax-M2) — fully local, LiteLLM routing; companion to strixresearch |
 | [tslit-dspy-ar](https://github.com/sw30labs/tslit-dspy-ar) | TSLIT v0.2 — DSPy/MIPROv2-compiled integrity analyzer with an autoresearch self-improvement loop ("fighting AI with AI") |
 | [tslit-dspy-dgx](https://github.com/sw30labs/tslit-dspy-dgx) | TSLIT-DSPy on DGX Spark — local vLLM, NVIDIA Nemotron detection brain (non-adversary models only; Qwen/DeepSeek are scan targets) |
+| [STRIDE-Lite](https://github.com/sw30labs/STRIDE-Lite) | Local STRIDE/DREAD threat models, ATT&CK-templated kill-chain scenarios, and a linked-note Vault with a phase × lane Campaign Score — LangGraph, OpenAI-compatible or local oMLX |
 
 **Category page:** [ai-security-pentesting](https://github.com/sw30labs/.github/wiki/ai-security-pentesting)
 
@@ -70,12 +71,12 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 |---|---|
 | [agent-stack](https://github.com/sw30labs/agent-stack) | Interactive 10-layer architecture visualization for reliable AI agents (vis.js) |
 | [deepagent-azure-cli](https://github.com/sw30labs/deepagent-azure-cli) | Turnkey coding assistant CLI — Azure OpenAI + LangChain DeepAgents, Textual TUI, HITL |
-| [N8n2langraph](https://github.com/sw30labs/N8n2langraph) | Convert n8n workflow JSON into standalone LangGraph Python scripts |
 | [sst-autoresearch](https://github.com/sw30labs/sst-autoresearch) | Speaker voice dynamics analysis via Karpathy-style autoresearch loop (Takens' embedding, Lyapunov) |
 | [ralph-dgx](https://github.com/sw30labs/ralph-dgx) | DeepAgents Code CLI + Ralph goal loop on DGX Spark — install→patch→overlay harness against local vLLM (Qwen3-Coder-Next-FP8) |
 | [wiki-vs-rag](https://github.com/sw30labs/wiki-vs-rag) | Four-arm benchmark over the sw30labs wiki — single-shot RAG vs agentic-RAG vs wiki-nav vs QMD; agentic-RAG wins Pareto |
 | [langgraph-checkpoints-vs-stores](https://github.com/sw30labs/langgraph-checkpoints-vs-stores) | Runnable offline reference — thread-scoped checkpoints vs cross-thread stores, real StateGraph/InMemorySaver/InMemoryStore, CI-gated; production backends (SQLite/Postgres/Redis) + HITL/time-travel chapters |
-| [venture-pathfinder](https://github.com/sw30labs/venture-pathfinder) | Scans local repos into a Neo4j graph, then LangGraph + a Fabric-style Pattern Engine (local OMLX) surfaces recurring patterns and white-space venture paths — plus a loopback command deck (Situation Room, Venture Radar, Sparring Room) |
+| [loopscope](https://github.com/sw30labs/loopscope) | Local live dashboard for LangGraph graphs and Ralph loops — in-process hook, :7788, ring buffer over a websocket, JSONL record/replay; forget the hook and the agent still runs |
+| [singularity-atlas](https://github.com/sw30labs/singularity-atlas) | The Singularity Atlas — fuses public AI-buildout feeds into a globe, eight vector panels, a 0–100 Singularity Index and a locally-written daily brief (LangGraph → Neo4j, optional Ollama) |
 
 **Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks)
 
@@ -92,19 +93,12 @@ On-device AI toolkit for Apple Silicon — inference serving, benchmarking, dist
 | [qwenbench-mlx](https://github.com/sw30labs/qwenbench-mlx) | Benchmark suite for Qwen 3.5 family (0.8B→35B) with auto-judge and cost-efficiency scoring |
 | [mlx-distillation-explained](https://github.com/sw30labs/mlx-distillation-explained) | Educational distillation PoC — Claude Sonnet → Llama 3.1 8B via LoRA on Apple Silicon |
 | [mlx-responses-api-server](https://github.com/sw30labs/mlx-responses-api-server) | OpenAI/Azure/Anthropic-compatible local inference server with tool calling (renamed from local-mlx-responsesAPI-server) |
-| [audiobook_generator](https://github.com/sw30labs/audiobook_generator) | Book → audiobook conversion using Qwen3-TTS + LangGraph with QA verification |
 | [QWEN3-VL-Python-OCR-Script-MLX](https://github.com/sw30labs/QWEN3-VL-Python-OCR-Script-MLX) | Batch image captioning with Qwen3-VL-30B on MLX |
 | [MLX-YouTubeScribe](https://github.com/sw30labs/MLX-YouTubeScribe) | YouTube transcription using local Whisper models with Streamlit UI |
-| [deepseekvl2-PDF-OCR-private](https://github.com/sw30labs/deepseekvl2-PDF-OCR-private) | Local PDF OCR using DeepSeek-VL2 MoE on NVIDIA CUDA |
-| [bonsai-image-ternary-4b-mlx-2bit](https://github.com/sw30labs/bonsai-image-ternary-4b-mlx-2bit) | Local Apple Silicon wrapper for Bonsai 4B ternary-quantized image generation |
-| [lance-3b-video-bf16](https://github.com/sw30labs/lance-3b-video-bf16) | Local MLX text-to-video + video Q&A (Lance 3B via lance-mlx runtime) |
-| [stable-audio-3](https://github.com/sw30labs/stable-audio-3) | Stability AI audio/music generation — 433M CPU models to 1.4B CUDA, Gradio UI |
 | [sulphur-2-base](https://github.com/sw30labs/sulphur-2-base) | Local MLX video generation wrapper for Sulphur 2 via ltx-2-mlx runtime |
 | [supertonic-3-mlx](https://github.com/sw30labs/supertonic-3-mlx) | Local MLX TTS for Supertonic 3 — JSON graph topology + NPZ weights |
-| [dflash-mlx-trial](https://github.com/sw30labs/dflash-mlx-trial) | DFlash × MLX — block-diffusion speculative decoding for Qwen3.6-27B on Apple Silicon (~3.4× faster, identical output) |
 | [STTbench](https://github.com/sw30labs/STTbench) | Benchmarks speech-to-text on cost/speed/accuracy — OpenAI gpt-4o-transcribe vs local MLX Whisper, WER split into sub/del/ins |
 | [ace-step-1.5-mlx](https://github.com/sw30labs/ace-step-1.5-mlx) | Local Apple Silicon text-to-song (with vocals) wrapper for ACE-Step 1.5 |
-| [ltx-2.3-mlx](https://github.com/sw30labs/ltx-2.3-mlx) | Local MLX text/image/audio-to-video for Lightricks LTX 2.3 |
 | [longcat-video-avatar-1.5-mlx](https://github.com/sw30labs/longcat-video-avatar-1.5-mlx) | Local MLX talking-avatar video (portrait + audio + prompt) |
 
 **Category page:** [local-inference-mlx](https://github.com/sw30labs/.github/wiki/local-inference-mlx)
@@ -117,7 +111,6 @@ CUDA counterpart to the MLX toolkit — local inference on NVIDIA DGX Spark (GB1
 
 | Repository | Description |
 |---|---|
-| [bonsai-ternary-27b-dgx](https://github.com/sw30labs/bonsai-ternary-27b-dgx) | Ternary Bonsai 27B chat stack — PrismML llama.cpp CUDA fork, llama-server (OpenAI-compatible :8080), Textual TUI with thinking stream |
 | [screen-lens-dgx](https://github.com/sw30labs/screen-lens-dgx) | DGX-only ScreenLens fork — vLLM (Qwen3.6-27B-FP8) captioning, OpenCLIP on CUDA, ChromaDB, Docker compose path |
 | [AI-OS-1](https://github.com/sw30labs/AI-OS-1) | Research corpus (no runtime) for a model-aware distributed inference OS on N ≥ 2 DGX Sparks — paper, frozen schemas, append-only design forum |
 
@@ -133,8 +126,6 @@ CLI utilities, code intelligence, and infrastructure for managing repository fle
 |---|---|
 | [gitnexus_fleet](https://github.com/sw30labs/gitnexus_fleet) | Clone, index (KuzuDB graph), and query entire GitHub orgs via MCP + web dashboard |
 | [RepoBundle](https://github.com/sw30labs/RepoBundle) | Export/import Git repos as single human-readable text files |
-| [animated-GIF-Creator](https://github.com/sw30labs/animated-GIF-Creator) | Image folder or MOV → animated GIF with auto-resize |
-| [nemotron-parse-spark](https://github.com/sw30labs/nemotron-parse-spark) | NVIDIA Nemotron Parse v1.2 harness for DGX Spark (Grace Blackwell GB10) — PDF → structured text + bounding boxes |
 | [cleanroom](https://github.com/sw30labs/cleanroom) | Agentic file-hygiene pipeline — Analyze → Recommend → Remediate → QA over one file via LangGraph, oMLX or DGX vLLM, honest about what it can and can't verify |
 
 **Category page:** [developer-tools](https://github.com/sw30labs/.github/wiki/developer-tools)
@@ -155,19 +146,19 @@ page under the "Related Articles" heading.
 
 ### 🧩 Cross-cutting patterns
 
-Across all 52 live repositories, several architectural patterns recur
+Across all 44 live repositories, several architectural patterns recur
 (counts from the `stacks:` frontmatter of repo stubs, see [Sitemap-Stacks](https://github.com/sw30labs/.github/wiki/Sitemap-Stacks)):
 
+- **Agentic** — multi-agent orchestration / tool-using agents (24 repos)
 - **LangGraph / LangChain** — dominant orchestration framework (24 repos)
-- **Agentic** — multi-agent orchestration / tool-using agents (23 repos)
-- **Apple MLX** — on-device inference on Apple Silicon (20 repos)
-- **CLI / Tooling** — command-line utilities and workflow glue (18 repos)
-- **Compliance** — regulatory frameworks, controls mapping (11 repos)
-- **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (9 repos)
+- **Apple MLX** — on-device inference on Apple Silicon (16 repos)
+- **CLI / Tooling** — command-line utilities and workflow glue (13 repos)
+- **Compliance** — regulatory frameworks, controls mapping (12 repos)
 - **OSCAL** — NIST OSCAL data model (SSPs, profiles, controls) (9 repos)
-- **Pentest** — offensive security, red-teaming, vulnerability discovery (7 repos)
-- **Converter** — file-format conversion, OCR, doc-to-markdown (6 repos)
-- **RAG** — retrieval-augmented generation, vector stores (4 repos)
+- **Pentest** — offensive security, red-teaming, vulnerability discovery (8 repos)
+- **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (7 repos)
+- **RAG** — retrieval-augmented generation, vector stores (5 repos)
+- **Converter** — file-format conversion, OCR, doc-to-markdown (3 repos)
 - **MCP** — Model Context Protocol servers / tooling (2 repos)
 - **Pydantic** for data validation (nearly universal)
 - **Typer + Rich** or **Click + Rich** for CLI interfaces
