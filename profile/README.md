@@ -1,8 +1,23 @@
 # SW3.0 Labs
 
-<a href="https://github.com/sw30labs/.github/wiki">
-  <img src="https://github.com/sw30labs/.github/blob/main/wiki-icon.png" width="40" alt="SW3.0 Labs wiki" align="right" />
-</a>
+<table>
+  <tr>
+    <td width="76" valign="middle">
+      <a href="https://github.com/sw30labs/.github/wiki">
+        <img src="https://github.com/sw30labs/.github/blob/main/wiki-icon.png?raw=true" width="64" alt="SW3.0 Labs wiki" />
+      </a>
+    </td>
+    <td valign="middle">
+      <strong><a href="https://github.com/sw30labs/.github/wiki">SW3.0 Labs Wiki</a></strong><br />
+      Catalog of every live repo. GitHub hides the wiki tab; this is the front door.<br />
+      <a href="https://github.com/sw30labs/.github/wiki/tslit">TSLIT</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/sw30labs/.github/wiki/singularity-atlas">The Singularity Atlas</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/sw30labs/.github/wiki/oscal-compliance">OSCAL</a>
+    </td>
+  </tr>
+</table>
 
 **Building the inference layer as the primary enterprise operating layer.**
 
