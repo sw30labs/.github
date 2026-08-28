@@ -33,7 +33,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 44 live *(18 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-28
+**Author:** Nicolas Cravino | **Repos:** 38 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-28
 
 ---
 
@@ -50,6 +50,7 @@ LLM integrity testing, regulatory intelligence for global pentest compliance, au
 | [skillspector-trial](https://github.com/sw30labs/skillspector-trial) | Skillspector — single-file offline scanner grading Agent Skills A–F on security + quality, now with an optional loopback oMLX "AI Analyst" that triages, adjudicates, and issues an install verdict (static evidence stream for oscal-skills-guardrails) |
 | [strix-omlx](https://github.com/sw30labs/strix-omlx) | Points the Strix autonomous pentest agent at a local OMLX MLX server (abliterated MiniMax-M2) — fully local, LiteLLM routing; companion to strixresearch |
 | [STRIDE-Lite](https://github.com/sw30labs/STRIDE-Lite) | Local STRIDE/DREAD threat models, ATT&CK-templated kill-chain scenarios, and a linked-note Vault with a phase × lane Campaign Score — LangGraph, OpenAI-compatible or local oMLX |
+| [LangGraph_STRIDE](https://github.com/sw30labs/LangGraph_STRIDE) | Dual-platform LangGraph STRIDE/DREAD threat models plus CVE/CTI/scenario graphs — same codebase on DGX Spark (vLLM) and Apple Silicon (oMLX); Maintain studio + optional Neo4j |
 
 **Category page:** [ai-security-pentesting](https://github.com/sw30labs/.github/wiki/ai-security-pentesting) · **TSLIT lineage:** [tslit](https://github.com/sw30labs/.github/wiki/tslit)
 
@@ -84,7 +85,6 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 |---|---|
 | [agent-stack](https://github.com/sw30labs/agent-stack) | Interactive 10-layer architecture visualization for reliable AI agents (vis.js) |
 | [deepagent-azure-cli](https://github.com/sw30labs/deepagent-azure-cli) | Turnkey coding assistant CLI — Azure OpenAI + LangChain DeepAgents, Textual TUI, HITL |
-| [sst-autoresearch](https://github.com/sw30labs/sst-autoresearch) | Speaker voice dynamics analysis via Karpathy-style autoresearch loop (Takens' embedding, Lyapunov) |
 | [ralph-dgx](https://github.com/sw30labs/ralph-dgx) | DeepAgents Code CLI + Ralph goal loop on DGX Spark — install→patch→overlay harness against local vLLM (Qwen3-Coder-Next-FP8) |
 | [wiki-vs-rag](https://github.com/sw30labs/wiki-vs-rag) | Four-arm benchmark over the sw30labs wiki — single-shot RAG vs agentic-RAG vs wiki-nav vs QMD; agentic-RAG wins Pareto |
 | [langgraph-checkpoints-vs-stores](https://github.com/sw30labs/langgraph-checkpoints-vs-stores) | Runnable offline reference — thread-scoped checkpoints vs cross-thread stores, real StateGraph/InMemorySaver/InMemoryStore, CI-gated; production backends (SQLite/Postgres/Redis) + HITL/time-travel chapters |
@@ -103,16 +103,12 @@ On-device AI toolkit for Apple Silicon — inference serving, benchmarking, dist
 |---|---|
 | [tars-ai](https://github.com/sw30labs/tars-ai) | TARS from Interstellar as a local voice agent — LLM + TTS served by a local OMLX server (OpenAI protocol), zero cloud; LangGraph dropped July 2026 for a plain orchestrator, now with a multi-character crew and a TUI |
 | [screen-lens-mlx](https://github.com/sw30labs/screen-lens-mlx) | Video scene intelligence — hybrid keyframe detection, local VLM captioning, ChromaDB search, code/docs/demo reconstruction. Re-converged to dual-platform in Aug 2026: one client over vLLM/CUDA *or* oMLX/MPS, split vision/text model roles, web command deck |
-| [qwenbench-mlx](https://github.com/sw30labs/qwenbench-mlx) | Benchmark suite for Qwen 3.5 family (0.8B→35B) with auto-judge and cost-efficiency scoring |
 | [mlx-distillation-explained](https://github.com/sw30labs/mlx-distillation-explained) | Educational distillation PoC — Claude Sonnet → Llama 3.1 8B via LoRA on Apple Silicon |
 | [mlx-responses-api-server](https://github.com/sw30labs/mlx-responses-api-server) | OpenAI/Azure/Anthropic-compatible local inference server with tool calling (renamed from local-mlx-responsesAPI-server) |
 | [QWEN3-VL-Python-OCR-Script-MLX](https://github.com/sw30labs/QWEN3-VL-Python-OCR-Script-MLX) | Batch image captioning with Qwen3-VL-30B on MLX |
 | [MLX-YouTubeScribe](https://github.com/sw30labs/MLX-YouTubeScribe) | YouTube transcription using local Whisper models with Streamlit UI |
 | [sulphur-2-base](https://github.com/sw30labs/sulphur-2-base) | Local MLX video generation wrapper for Sulphur 2 via ltx-2-mlx runtime |
 | [supertonic-3-mlx](https://github.com/sw30labs/supertonic-3-mlx) | Local MLX TTS for Supertonic 3 — JSON graph topology + NPZ weights |
-| [STTbench](https://github.com/sw30labs/STTbench) | Benchmarks speech-to-text on cost/speed/accuracy — OpenAI gpt-4o-transcribe vs local MLX Whisper, WER split into sub/del/ins |
-| [ace-step-1.5-mlx](https://github.com/sw30labs/ace-step-1.5-mlx) | Local Apple Silicon text-to-song (with vocals) wrapper for ACE-Step 1.5 |
-| [longcat-video-avatar-1.5-mlx](https://github.com/sw30labs/longcat-video-avatar-1.5-mlx) | Local MLX talking-avatar video (portrait + audio + prompt) |
 
 **Category page:** [local-inference-mlx](https://github.com/sw30labs/.github/wiki/local-inference-mlx)
 
