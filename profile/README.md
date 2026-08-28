@@ -18,7 +18,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 44 live *(18 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-22
+**Author:** Nicolas Cravino | **Repos:** 44 live *(18 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-28
 
 ---
 
@@ -28,17 +28,15 @@ LLM integrity testing, regulatory intelligence for global pentest compliance, au
 
 | Repository | Description |
 |---|---|
-| [TSLIT](https://github.com/sw30labs/TSLIT) | Time-Shift LLM Integrity Tester — detects affiliation bias and time-based logic bombs in local LLMs (3,840 interactions/model) |
+| [tslit-dspy-dgx](https://github.com/sw30labs/tslit-dspy-dgx) | TSLIT — time-shift integrity testing on DGX Spark (Ollama, Muse-light detective; Qwen is a scan target, never the detector). Lineage: [tslit](https://github.com/sw30labs/.github/wiki/tslit) |
 | [pentest-regulatory-intel](https://github.com/sw30labs/pentest-regulatory-intel) | RegIntel — AI-powered pentest regulation inventory across 20+ jurisdictions with reflection quality gates |
 | [strixresearch](https://github.com/sw30labs/strix-research) | Research and documentation for the Strix autonomous AI pentesting platform |
 | [agentic-ai-pentesting](https://github.com/sw30labs/agentic-ai-pentesting) | Book companion — two approaches to AI-assisted pentesting (autonomous platform + Burp Suite co-pilot) |
 | [skillspector-trial](https://github.com/sw30labs/skillspector-trial) | Skillspector — single-file offline scanner grading Agent Skills A–F on security + quality, now with an optional loopback oMLX "AI Analyst" that triages, adjudicates, and issues an install verdict (static evidence stream for oscal-skills-guardrails) |
 | [strix-omlx](https://github.com/sw30labs/strix-omlx) | Points the Strix autonomous pentest agent at a local OMLX MLX server (abliterated MiniMax-M2) — fully local, LiteLLM routing; companion to strixresearch |
-| [tslit-dspy-ar](https://github.com/sw30labs/tslit-dspy-ar) | TSLIT v0.2 — DSPy/MIPROv2-compiled integrity analyzer with an autoresearch self-improvement loop ("fighting AI with AI") |
-| [tslit-dspy-dgx](https://github.com/sw30labs/tslit-dspy-dgx) | TSLIT-DSPy on DGX Spark — local vLLM, NVIDIA Nemotron detection brain (non-adversary models only; Qwen/DeepSeek are scan targets) |
 | [STRIDE-Lite](https://github.com/sw30labs/STRIDE-Lite) | Local STRIDE/DREAD threat models, ATT&CK-templated kill-chain scenarios, and a linked-note Vault with a phase × lane Campaign Score — LangGraph, OpenAI-compatible or local oMLX |
 
-**Category page:** [ai-security-pentesting](https://github.com/sw30labs/.github/wiki/ai-security-pentesting)
+**Category page:** [ai-security-pentesting](https://github.com/sw30labs/.github/wiki/ai-security-pentesting) · **TSLIT lineage:** [tslit](https://github.com/sw30labs/.github/wiki/tslit)
 
 ---
 
@@ -78,7 +76,7 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 | [loopscope](https://github.com/sw30labs/loopscope) | Local live dashboard for LangGraph graphs and Ralph loops — in-process hook, :7788, ring buffer over a websocket, JSONL record/replay; forget the hook and the agent still runs |
 | [singularity-atlas](https://github.com/sw30labs/singularity-atlas) | The Singularity Atlas — fuses public AI-buildout feeds into a globe, eight vector panels, a 0–100 Singularity Index and a locally-written daily brief (LangGraph → Neo4j, optional Ollama) |
 
-**Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks)
+**Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks) · **Atlas:** [singularity-atlas](https://github.com/sw30labs/.github/wiki/singularity-atlas)
 
 ---
 
@@ -163,7 +161,7 @@ Across all 44 live repositories, several architectural patterns recur
 - **Pydantic** for data validation (nearly universal)
 - **Typer + Rich** or **Click + Rich** for CLI interfaces
 - **Karpathy LLM Wiki pattern** for knowledge bases (this wiki)
-- **Dual-platform siblings** — Apple Silicon (mlx/oMLX) and DGX Spark (dgx/vLLM) trees of the same product: driftlab, screen-lens, tslit-dspy
+- **Dual-platform siblings** — Apple Silicon (mlx/oMLX) and DGX Spark (dgx/vLLM) trees of the same product: driftlab, screen-lens. TSLIT collapsed to one live spine ([tslit](https://github.com/sw30labs/.github/wiki/tslit)); there is no public mlx TSLIT-DSPy repo.
 
 ---
 
