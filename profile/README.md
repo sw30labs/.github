@@ -33,7 +33,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 39 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-29
+**Author:** Nicolas Cravino | **Repos:** 40 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-30
 
 ---
 
@@ -143,11 +143,12 @@ CLI utilities, code intelligence, and infrastructure for managing repository fle
 
 ### Miscellaneous Research
 
-One-off research instruments that do not sit in security, OSCAL, agents, or local inference. videocortex is first.
+One-off research instruments that do not sit in security, OSCAL, agents, or local inference. Two encoding instruments: Mac and Spark.
 
 | Repository | Description |
 |---|---|
 | [videocortex](https://github.com/sw30labs/videocortex) | Drop a clip. See which cortical regions TRIBE v2's average subject would fire. Encoding, not decoding — local instrument around Meta TRIBE v2 (Metal, preflight, plates) |
+| [videocortex-spark](https://github.com/sw30labs/videocortex-spark) | Same instrument on NVIDIA DGX Spark (GB10 / CUDA 13). UMA from meminfo, CIRC-fixed runs view, plus `export` / `sonify` |
 
 **Category page:** [miscellaneous-research](https://github.com/sw30labs/.github/wiki/miscellaneous-research)
 
@@ -167,7 +168,7 @@ page under the "Related Articles" heading.
 
 ### 🧩 Cross-cutting patterns
 
-Across all 44 live repositories, several architectural patterns recur
+Across all 45 live repositories, several architectural patterns recur
 (counts from the `stacks:` frontmatter of repo stubs, see [Sitemap-Stacks](https://github.com/sw30labs/.github/wiki/Sitemap-Stacks)):
 
 - **Agentic** — multi-agent orchestration / tool-using agents (24 repos)
@@ -177,14 +178,14 @@ Across all 44 live repositories, several architectural patterns recur
 - **Compliance** — regulatory frameworks, controls mapping (12 repos)
 - **OSCAL** — NIST OSCAL data model (SSPs, profiles, controls) (9 repos)
 - **Pentest** — offensive security, red-teaming, vulnerability discovery (8 repos)
-- **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (7 repos)
+- **NVIDIA DGX Spark** — CUDA / local vLLM ports of the desk fleet (8 repos)
 - **RAG** — retrieval-augmented generation, vector stores (5 repos)
 - **Converter** — file-format conversion, OCR, doc-to-markdown (3 repos)
 - **MCP** — Model Context Protocol servers / tooling (2 repos)
 - **Pydantic** for data validation (nearly universal)
 - **Typer + Rich** or **Click + Rich** for CLI interfaces
 - **Karpathy LLM Wiki pattern** for knowledge bases (this wiki)
-- **Dual-platform siblings** — Apple Silicon (mlx/oMLX) and DGX Spark (dgx/vLLM) trees of the same product: driftlab, screen-lens. TSLIT collapsed to one live spine ([tslit](https://github.com/sw30labs/.github/wiki/tslit)); there is no public mlx TSLIT-DSPy repo.
+- **Dual-platform siblings** — Apple Silicon and DGX Spark trees of the same product: driftlab, screen-lens (mlx/oMLX vs vLLM), videocortex (Metal vs CUDA). TSLIT collapsed to one live spine ([tslit](https://github.com/sw30labs/.github/wiki/tslit)); there is no public mlx TSLIT-DSPy repo.
 
 ---
 
