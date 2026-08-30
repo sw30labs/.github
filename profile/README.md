@@ -33,7 +33,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 38 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-28
+**Author:** Nicolas Cravino | **Repos:** 39 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-29
 
 ---
 
@@ -138,6 +138,18 @@ CLI utilities, code intelligence, and infrastructure for managing repository fle
 | [cleanroom](https://github.com/sw30labs/cleanroom) | Agentic file-hygiene pipeline — Analyze → Recommend → Remediate → QA over one file via LangGraph, oMLX or DGX vLLM, honest about what it can and can't verify |
 
 **Category page:** [developer-tools](https://github.com/sw30labs/.github/wiki/developer-tools)
+
+---
+
+### Miscellaneous Research
+
+One-off research instruments that do not sit in security, OSCAL, agents, or local inference. videocortex is first.
+
+| Repository | Description |
+|---|---|
+| [videocortex](https://github.com/sw30labs/videocortex) | Drop a clip. See which cortical regions TRIBE v2's average subject would fire. Encoding, not decoding — local instrument around Meta TRIBE v2 (Metal, preflight, plates) |
+
+**Category page:** [miscellaneous-research](https://github.com/sw30labs/.github/wiki/miscellaneous-research)
 
 ---
 
