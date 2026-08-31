@@ -238,6 +238,8 @@ Pascal Bornet, Jochen Wirtz, Thomas H. Davenport, et al. Named key contributor o
 
 <br clear="left" />
 
+Produces [Agentic Intelligence](https://www.linkedin.com/newsletters/agentic-intelligence-7293015480007557121/) for Pascal Bornet (architected and run, 55 issues) and [The FS Intelligence Hub](https://www.linkedin.com/newsletters/the-fs-intelligence-hub-7262168411365908481/) for Efi Pylarinou.
+
 ---
 
 *Built by [Nic Cravino](https://github.com/ai-agents-cybersecurity) · AI/ML Engineering · Cybersecurity · Enterprise Automation*
