@@ -196,19 +196,45 @@ Across all 45 live repositories, several architectural patterns recur
 
 ---
 
-### 📖 Book
+### 📖 Books
 
 <a href="https://a.co/d/07Fndacy">
   <img src="https://github.com/sw30labs/.github/blob/main/book1cover.png" width="150" alt="AI Agents in Cybersecurity" align="left" />
 </a>
 
-**AI Agents in Cybersecurity** — A Practitioner's Guide, from Strategy to Implementation.
+**Author.** **AI Agents in Cybersecurity** — A Practitioner's Guide, from Strategy to Implementation.
 
 How autonomous agents are transforming enterprise security — from automating SOC operations and incident triage to building multi-agent defense systems. Includes real-world case studies, practical frameworks, and a hands-on lab companion.
 
 [![Apple Books](https://img.shields.io/badge/Apple_Books-000000?style=for-the-badge&logo=apple&logoColor=white)](https://books.apple.com/us/book/ai-agents-in-cybersecurity/id6751737181)
 [![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://a.co/d/07Fndacy)
 [![GitHub](https://img.shields.io/badge/Companion_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ai-agents-cybersecurity/complete)
+
+<br clear="left" />
+
+<a href="https://www.amazon.com/dp/B0GX31SFJJ">
+  <img src="https://github.com/sw30labs/.github/blob/main/book2cover.png" width="150" alt="The Human-Agent Orchestrator" align="left" />
+</a>
+
+**Named key contributor.** **The Human-Agent Orchestrator** — Leading and Scaling AI-Driven Organizations.
+
+Pascal Bornet, Jochen Wirtz, et al. System contribution: designed/implemented customer-facing workflows for a related orchestration design canvas and workshop ecosystem.
+
+[![Apple Books](https://img.shields.io/badge/Apple_Books-000000?style=for-the-badge&logo=apple&logoColor=white)](https://books.apple.com/us/book/the-human-agent-orchestrator-leading-and-scaling/id6771782989)
+[![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/dp/B0GX31SFJJ)
+
+<br clear="left" />
+
+<a href="https://www.amazon.com/dp/B0F1DS36YC">
+  <img src="https://github.com/sw30labs/.github/blob/main/book3cover.png" width="150" alt="Agentic Artificial Intelligence" align="left" />
+</a>
+
+**Named key contributor.** **Agentic Artificial Intelligence** — Harnessing AI Agents to Reinvent Business, Work and Life.
+
+Pascal Bornet, Jochen Wirtz, Thomas H. Davenport, et al. Named key contributor on this practitioner guide (Forbes 2025 must-read).
+
+[![Apple Books](https://img.shields.io/badge/Apple_Books-000000?style=for-the-badge&logo=apple&logoColor=white)](https://books.apple.com/us/book/agentic-artificial-intelligence/id6744370588)
+[![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/dp/B0F1DS36YC)
 
 <br clear="left" />
 
