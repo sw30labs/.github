@@ -33,7 +33,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 40 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-08-30
+**Author:** Nicolas Cravino | **Repos:** 40 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-09-02
 
 ---
 
@@ -91,7 +91,7 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 | [loopscope](https://github.com/sw30labs/loopscope) | Local live dashboard for LangGraph graphs and Ralph loops — in-process hook, :7788, ring buffer over a websocket, JSONL record/replay; forget the hook and the agent still runs |
 | [singularity-atlas](https://github.com/sw30labs/singularity-atlas) | The Singularity Atlas — fuses public AI-buildout feeds into a globe, eight vector panels, a 0–100 Singularity Index and a locally-written daily brief (LangGraph → Neo4j, optional Ollama) |
 
-**Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks) · **Atlas:** [singularity-atlas](https://github.com/sw30labs/.github/wiki/singularity-atlas)
+**Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks) · **Atlas:** [singularity-atlas](https://github.com/sw30labs/.github/wiki/singularity-atlas) · **LoopScope:** [loopscope](https://github.com/sw30labs/.github/wiki/loopscope)
 
 ---
 
