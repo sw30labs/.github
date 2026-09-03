@@ -33,7 +33,7 @@
 
 ---
 
-**Author:** Nicolas Cravino | **Repos:** 40 live *(25 archived repos are not tracked)* | **Articles:** 34 | **Last updated:** 2026-09-02
+**Author:** Nicolas Cravino | **Repos:** 42 live *(25 archived repos are not tracked)* | **Articles:** 36 | **Last updated:** 2026-09-02
 
 ---
 
@@ -89,9 +89,10 @@ Design patterns, orchestration, workflow conversion, coding assistants, and rese
 | [wiki-vs-rag](https://github.com/sw30labs/wiki-vs-rag) | Four-arm benchmark over the sw30labs wiki — single-shot RAG vs agentic-RAG vs wiki-nav vs QMD; agentic-RAG wins Pareto |
 | [langgraph-checkpoints-vs-stores](https://github.com/sw30labs/langgraph-checkpoints-vs-stores) | Runnable offline reference — thread-scoped checkpoints vs cross-thread stores, real StateGraph/InMemorySaver/InMemoryStore, CI-gated; production backends (SQLite/Postgres/Redis) + HITL/time-travel chapters |
 | [loopscope](https://github.com/sw30labs/loopscope) | Local live dashboard for LangGraph graphs and Ralph loops — in-process hook, :7788, ring buffer over a websocket, JSONL record/replay; forget the hook and the agent still runs |
+| [nightshift](https://github.com/sw30labs/nightshift) | Overnight coding agent — Spark DS4 writer + Mac oMLX critic, frozen 3-item brief, morning `night/YYYY-MM-DD` branch + LoopScope replay |
 | [singularity-atlas](https://github.com/sw30labs/singularity-atlas) | The Singularity Atlas — fuses public AI-buildout feeds into a globe, eight vector panels, a 0–100 Singularity Index and a locally-written daily brief (LangGraph → Neo4j, optional Ollama) |
 
-**Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks) · **Atlas:** [singularity-atlas](https://github.com/sw30labs/.github/wiki/singularity-atlas) · **LoopScope:** [loopscope](https://github.com/sw30labs/.github/wiki/loopscope)
+**Category page:** [agentic-frameworks](https://github.com/sw30labs/.github/wiki/agentic-frameworks) · **Atlas:** [singularity-atlas](https://github.com/sw30labs/.github/wiki/singularity-atlas) · **LoopScope:** [loopscope](https://github.com/sw30labs/.github/wiki/loopscope) · **Nightshift:** overnight Ralph
 
 ---
 
@@ -122,6 +123,7 @@ CUDA counterpart to the MLX toolkit — local inference on NVIDIA DGX Spark (GB1
 |---|---|
 | [screen-lens-dgx](https://github.com/sw30labs/screen-lens-dgx) | DGX-only ScreenLens fork — vLLM (Qwen3.6-27B-FP8) captioning, OpenCLIP on CUDA, ChromaDB, Docker compose path |
 | [AI-OS-1](https://github.com/sw30labs/AI-OS-1) | Research corpus (no runtime) for a model-aware distributed inference OS on N ≥ 2 DGX Sparks — paper, frozen schemas, append-only design forum |
+| [spark-serve](https://github.com/sw30labs/spark-serve) | Mac CLI + SwiftUI helper to start/stop/swap catalogued vLLM models on a live two-node DGX Spark cluster endpoint (:8000) |
 
 **Category page:** [local-inference-dgx](https://github.com/sw30labs/.github/wiki/local-inference-dgx)
 
@@ -156,8 +158,8 @@ One-off research instruments that do not sit in security, OSCAL, agents, or loca
 
 ### 📰 Published Articles
 
-Long-form companion writing to the repos above — 34 articles spanning
-2023-04 to 2026-07, covering AI security governance, agentic pentesting,
+Long-form companion writing to the repos above — 36 articles spanning
+2023-04 to 2026-08, covering AI security governance, agentic pentesting,
 OSCAL-as-code, custom silicon economics, and zero-trust AI coding.
 
 See [timeline](https://github.com/sw30labs/.github/wiki/timeline) for the chronological list, or [Index](https://github.com/sw30labs/.github/wiki/Index) for all article
@@ -168,7 +170,7 @@ page under the "Related Articles" heading.
 
 ### 🧩 Cross-cutting patterns
 
-Across all 45 live repositories, several architectural patterns recur
+Across all 42 live repositories, several architectural patterns recur
 (counts from the `stacks:` frontmatter of repo stubs, see [Sitemap-Stacks](https://github.com/sw30labs/.github/wiki/Sitemap-Stacks)):
 
 - **Agentic** — multi-agent orchestration / tool-using agents (24 repos)
