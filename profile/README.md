@@ -47,7 +47,14 @@ Ten source-grounded assessments, a holistic portfolio review, and an adjustable 
 
 [Full assessments and method](https://github.com/sw30labs/.github/tree/main/research/porter)
 
-[**About SW30 Labs / How humans and agents work together →**](https://sw30labs.github.io/.github/about.html)
+## About SW30 Labs
+
+How humans and agents work together — cadence, decisions, and the local stack.
+
+| Page | What it covers |
+| --- | --- |
+| [**About / How we work →**](https://sw30labs.github.io/.github/about.html) | Research loop, weekly cadence, human judgment vs agent momentum |
+| [**My tech stack →**](https://sw30labs.github.io/.github/about.html#stack) | Machines, models, languages, memory, observe/assess, deliver/decide |
 
 ## The research engine
 
