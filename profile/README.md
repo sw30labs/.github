@@ -1,3 +1,10 @@
+<p align="right">
+  <img src="https://raw.githubusercontent.com/sw30labs/.github/main/docs/assets/aineko.svg" alt="Aineko" title="Aineko" height="48">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sw30labs/.github/main/docs/assets/sw30-logo-lockup.png" alt="SW30 Labs" height="120">
+</p>
+
 # SW30 Labs
 
 **Independent Applied Research**
