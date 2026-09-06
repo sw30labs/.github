@@ -1,31 +1,50 @@
-# SW3.0 Labs
+# SW30 Labs
 
-<table>
-  <tr>
-    <td width="76" valign="middle">
-      <a href="https://github.com/sw30labs/.github/wiki">
-        <img src="https://github.com/sw30labs/.github/blob/main/wiki-icon.png?raw=true" width="64" alt="SW3.0 Labs wiki" />
-      </a>
-    </td>
-    <td valign="middle">
-      <strong><a href="https://github.com/sw30labs/.github/wiki">SW3.0 Labs Wiki</a></strong><br />
-      Catalog of every live repo. GitHub hides the wiki tab; this is the front door.<br />
-      <a href="https://github.com/sw30labs/.github/wiki/tslit">TSLIT</a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/sw30labs/.github/wiki/singularity-atlas">The Singularity Atlas</a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/sw30labs/.github/wiki/oscal-compliance">OSCAL</a>
-    </td>
-  </tr>
-</table>
+**Independent Applied Research**
 
-**Building the inference layer as the primary enterprise operating layer.**
+We explore agentic security, local and distributed AI, resilient systems, and unusual computing architectures through small, inspectable experiments.
 
-<p align="center">
-  <img src="https://github.com/sw30labs/.github/blob/main/sw30evolution.png?raw=true" alt="SW 3.0 Labs" />
-</p>
+> **Build a chapel, not a cathedral—and no preaching.**
+>
+> **We optimize for the rate at which ideas become evidence.**
+>
+> **Failure is a result.**
 
-*"We build open-source tools at the intersection of AI agents, cybersecurity, and local inference — with a bias toward production-grade security, Apple Silicon optimization, and agentic automation."*
+## Research programs
+
+| Program | Question |
+|---|---|
+| **Agentic Security & Trust** | How can autonomous systems remain observable, bounded and attack-resistant? |
+| **AI & Computing Systems** | How can intelligence become cheaper, local and distributed? |
+| **Resilient & Space Systems** | How can computation survive faults, energy scarcity and extreme duration? |
+| **Frontier Experiments** | Which unusual ideas deserve the smallest decisive test? |
+
+## Start with the evidence
+
+| Project | Research focus | Current status |
+|---|---|---|
+| [OSCAL Skills Guardrails](https://github.com/sw30labs/oscal-skills-guardrails) | Static + semantic admission and integrity checks for agent skills | Reference implementation; hardening questions remain |
+| [TSLIT-DSPy DGX](https://github.com/sw30labs/tslit-dspy-dgx) | Controlled model-integrity probes | Experimental evidence; negative findings and withdrawn work documented |
+| [Wiki vs RAG](https://github.com/sw30labs/wiki-vs-rag) | Retrieval quality, token and latency tradeoffs | Recorded four-arm study on one corpus |
+| [AI-OS-1](https://github.com/sw30labs/AI-OS-1) | Model-aware distributed inference | Design corpus; no runtime yet |
+| **RPC-H16 / Rubik’s Photonic Computer** | Sixteen logical optical channels, 3D topology and graceful degradation | Planned Frontier flagship; simulation first |
+
+[**Research Atlas and evidence dossiers →**](https://github.com/sw30labs/.github/tree/main/research)
+
+Sixteen logical channels do not require sixteen physical faces. RPC-H16 has no demonstrated optical hardware or system-wide performance advantage yet. Resilient/space work is a research direction, not a claim of space qualification.
+
+## The research engine
+
+The **SW30 Research Engine** is a cross-cutting layer: local models, deterministic tools, simulations and recorded experiments, with selective frontier-model review. It supports all four programs.
+
+**Hypothesis → experiment → evidence → finding → kill / modify / reproduce / promote.**
+
+[Research method and template](https://github.com/sw30labs/.github/tree/main/research/template) · [Existing wiki](https://github.com/sw30labs/.github/wiki) · [Published writing](https://github.com/sw30labs/articles-published)
+
+<details>
+<summary>Existing wiki catalog and historical navigation (automatically maintained)</summary>
+
+The wiki uses its own catalog scope and update date; its counts are not a live organization inventory. The Research Atlas above supplies the current research grouping.
 
 <!-- wiki-home:start -->
 <!-- AUTO-GENERATED from the org wiki Home page by .github/workflows/sync-profile-readme.yml.
@@ -195,6 +214,9 @@ Across all 42 live repositories, several architectural patterns recur
 
 *<sub>This section is mirrored automatically from the [org wiki](https://github.com/sw30labs/.github/wiki) — edit the wiki, not this file.</sub>*
 <!-- wiki-home:end -->
+
+</details>
+
 
 ---
 
