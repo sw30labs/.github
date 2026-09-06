@@ -24,14 +24,15 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 | Project | Research focus | Current status |
 |---|---|---|
 | [Loopscope](https://github.com/sw30labs/loopscope) | Observability for agent workflows | **Flagship**; daily personal use reported by the owner |
-| [VideoCortex](https://github.com/sw30labs/videocortex) | Video understanding | PoC; practical value still under investigation |
+| [Nightshift](https://github.com/sw30labs/nightshift) | Bounded overnight portfolio work with reviewable branches | **Research Engine flagship**; net human time savings under evaluation |
+| [VideoCortex](https://github.com/sw30labs/videocortex) | Local stimulus-to-brain-response research instrument around TRIBE v2 | PoC; practical value still under investigation |
 | [Singularity Atlas](https://github.com/sw30labs/singularity-atlas) | AI build-out signals, convergence and local briefs | Featured working-dashboard project; PoC assessment provisional |
 | [OSCAL Skills Guardrails](https://github.com/sw30labs/oscal-skills-guardrails) | Static + semantic admission and integrity checks for agent skills | Reference implementation; hardening questions remain |
 | [TSLIT-DSPy DGX](https://github.com/sw30labs/tslit-dspy-dgx) | Controlled model-integrity probes | Experimental evidence; negative findings and withdrawn work documented |
 | [Wiki vs RAG](https://github.com/sw30labs/wiki-vs-rag) | Retrieval quality, token and latency tradeoffs | Recorded four-arm study on one corpus |
 | [AI-OS-1](https://github.com/sw30labs/AI-OS-1) | Model-aware distributed inference | Design corpus; no runtime yet |
 | [AEGIS](https://github.com/sw30labs/aegis-research) | Hardware, governed software and local AI for auditable security assessment | Experiment — research proposal; no implementation yet |
-| **RPC-H16 / Rubik’s Photonic Computer** | Sixteen logical optical channels, 3D topology and graceful degradation | Planned Frontier flagship; simulation first |
+| **RPC-H16 / Rubik’s Photonic Computer** | Sixteen logical optical channels, 3D topology and graceful degradation | Frontier flagship; initial software simulation, physical optics unproven |
 
 [**Research Atlas and evidence dossiers →**](https://github.com/sw30labs/.github/tree/main/research)
 
@@ -44,6 +45,14 @@ Sixteen logical channels do not require sixteen physical faces. RPC-H16 has no d
 [**Open the animated, clickable landscape →**](https://sw30labs.github.io/.github/)
 
 Height means maturity, not importance. Select a project for its evidence and next milestone.
+
+## Portfolio priorities
+
+[**Explore Porter Five Forces and weekly effort →**](https://sw30labs.github.io/.github/porter.html)
+
+Ten source-grounded assessments, a holistic portfolio review, and an adjustable planning example. Focus on Loopscope, Nightshift and Skills Guardrails; rotate one empirical study and preserve a small frontier slot. Ratings are analyst judgments, not measured market scores.
+
+[Full assessments and method](https://github.com/sw30labs/.github/tree/main/research/porter)
 
 ## The research engine
 

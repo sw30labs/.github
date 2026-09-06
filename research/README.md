@@ -6,7 +6,7 @@ Build a chapel, not a cathedral—and no preaching. We optimize for the rate at 
 
 This is a small research map alongside the [existing wiki](https://github.com/sw30labs/.github/wiki), not a replacement catalog or a new platform. Labels are editorial recommendations; ARCHIVE and LEGACY retain existing history. ACTIVE does not certify production readiness.
 
-[Flagship evidence](flagships.md) · [Research method and template](template/README.md) · [Research Engine](research-engine.md) · [Public machine-readable inventory](inventory.public.json)
+[Portfolio priorities and Five Forces](https://sw30labs.github.io/.github/porter.html) · [Full assessments](porter/README.md) · [Flagship evidence](flagships.md) · [Research method and template](template/README.md) · [Research Engine](research-engine.md) · [Public machine-readable inventory](inventory.public.json)
 
 ## Agentic Security & Trust
 
@@ -70,7 +70,7 @@ Cross-program research: [AEGIS](https://github.com/sw30labs/aegis-research), pri
 | [mlx-responses-api-server](https://github.com/sw30labs/mlx-responses-api-server) | ACTIVE | documented; execution not independently reproduced |
 | [n8n-to-langraph](https://github.com/sw30labs/n8n-to-langraph) | ARCHIVE | documented; execution not independently reproduced |
 | [nemotron-parse-spark](https://github.com/sw30labs/nemotron-parse-spark) | ARCHIVE | documented; execution not independently reproduced |
-| [nightshift](https://github.com/sw30labs/nightshift) | ACTIVE | documented; execution not independently reproduced |
+| [nightshift](https://github.com/sw30labs/nightshift) | FLAGSHIP | Research Engine instrument; net time savings under evaluation |
 | [OllamaPDF2Markdown](https://github.com/sw30labs/OllamaPDF2Markdown) | ARCHIVE | documented; execution not independently reproduced |
 | [qwen-ocr-mlx](https://github.com/sw30labs/qwen-ocr-mlx) | EXPERIMENT | documented; execution not independently reproduced |
 | [qwenbench-mlx](https://github.com/sw30labs/qwenbench-mlx) | ARCHIVE | documented; execution not independently reproduced |
@@ -100,7 +100,7 @@ No public repository assigned in this snapshot.
 
 ## Frontier Experiments
 
-**RPC-H16 — planned flagship:** sixteen logical optical channels, 3D topology, fault tolerance, simulation first. Physical geometry and performance remain open; no photonic hardware result is claimed.
+**RPC-H16 — Frontier flagship:** sixteen logical optical channels, 3D topology, fault tolerance, simulation first. Physical geometry and performance remain open; no photonic hardware result is claimed.
 
 | Project | Class | Evidence state |
 |---|---|---|

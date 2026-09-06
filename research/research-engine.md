@@ -13,3 +13,9 @@ PAIR-style availability routing is a proposed integration. Request routing is se
 An escalation brief includes the question, assumptions, baseline, evidence, failures, competing explanations and one requested decision. Log route, model/version, reason, latency, observed cost where available, rework and decision impact. Missing usage data stays unknown. Local inference also has a cost.
 
 A useful negative result closes a research question. A broken run needs repair and must not be reported as falsification. Store seeds, configuration, code revision, source provenance, raw outputs and interpretation separately. Start with files; build infrastructure only when repeatable work demands it.
+
+## Weekly capacity
+
+Nightshift is a Research Engine flagship. Measure its contribution by accepted work and net human time saved, including review and repair. Pilot bounded sequential nights; do not increase the queue while morning review is backlogged.
+
+[Weekly priorities and Five Forces](https://sw30labs.github.io/.github/porter.html) · [Portfolio assessment](porter/README.md).
