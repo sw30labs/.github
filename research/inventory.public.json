@@ -14,8 +14,8 @@
     "REFERENCE": 10,
     "ARCHIVE": 23,
     "EXPERIMENT": 12,
-    "ACTIVE": 21,
-    "FLAGSHIP": 3,
+    "ACTIVE": 20,
+    "FLAGSHIP": 4,
     "LEGACY": 2
   },
   "repositories": [
@@ -932,10 +932,10 @@
       "primary_program": "AI & Computing Systems",
       "program_code": "ACS",
       "research_engine": true,
-      "classification": "ACTIVE",
+      "classification": "FLAGSHIP",
       "confidence": "medium",
-      "rationale": "README describes an implemented tool or maintained design corpus; recommend continued research attention, not a claim of deployment quality.",
-      "maturity": "documented; execution not independently reproduced",
+      "rationale": "Daily workflow utility; owner designated flagship on 2026-09-06.",
+      "maturity": "Operational in owner\u2019s daily workflow; owner-reported, broader readiness unverified",
       "recommended_action": "Retain; add research record when next touched.",
       "family": null,
       "readme_status": "retrieved",
@@ -951,7 +951,8 @@
         "tests/test_replay_and_server.py"
       ],
       "evidence_path_count": 6,
-      "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection."
+      "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection.",
+      "assessment_updated_at": "2026-09-06"
     },
     {
       "name": "ltx-2.3-mlx",
@@ -1735,11 +1736,11 @@
       "description": "Local situational-awareness dashboard for the AI build-out: globe, eight vectors, Singularity Index, daily brief.",
       "primary_program": "AI & Computing Systems",
       "program_code": "ACS",
-      "research_engine": false,
+      "research_engine": true,
       "classification": "ACTIVE",
       "confidence": "medium",
-      "rationale": "README describes an implemented tool or maintained design corpus; recommend continued research attention, not a claim of deployment quality.",
-      "maturity": "documented; execution not independently reproduced",
+      "rationale": "Featured project: public signal dashboard and local AI synthesis.",
+      "maturity": "PoC candidate \u2014 README documents working dashboard; execution not independently verified",
       "recommended_action": "Retain; add research record when next touched.",
       "family": "Singularity Atlas",
       "readme_status": "retrieved",
@@ -1761,7 +1762,8 @@
         "tests/test_taxonomy.py"
       ],
       "evidence_path_count": 12,
-      "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection."
+      "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection.",
+      "assessment_updated_at": "2026-09-06"
     },
     {
       "name": "skillspector-trial",
@@ -2318,8 +2320,8 @@
       "research_engine": false,
       "classification": "ACTIVE",
       "confidence": "medium",
-      "rationale": "README describes an implemented tool or maintained design corpus; recommend continued research attention, not a claim of deployment quality.",
-      "maturity": "documented; execution not independently reproduced",
+      "rationale": "Validate usefulness on one real task before expanding scope.",
+      "maturity": "PoC \u2014 owner-reported; value proposition unresolved",
       "recommended_action": "Retain; add research record when next touched.",
       "family": "VideoCortex",
       "readme_status": "retrieved",
@@ -2338,7 +2340,8 @@
         "tests/test_web.py"
       ],
       "evidence_path_count": 9,
-      "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection."
+      "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection.",
+      "assessment_updated_at": "2026-09-06"
     },
     {
       "name": "videocortex-spark",

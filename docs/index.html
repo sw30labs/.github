@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SW30 Labs · Research Landscape</title><meta name="description" content="Explore SW30 Labs projects by domain affinity and evidence-backed maturity."><style>*{box-sizing:border-box}body{margin:0;background:#0c1320;color:#e2eaf4;font:15px/1.5 system-ui,sans-serif;--foreground:#e2eaf4;--border:#354359;--viz-series-1:#65d8ef;--viz-series-2:#d3a4ff;--viz-series-3:#f5c777}main{max-width:1050px;margin:auto;padding:32px 22px}a{color:#65d8ef}h1{font-size:30px}h2{font-size:23px;font-weight:500}.viz-controls,.viz-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.btn{font:inherit;font-size:13px;color:inherit;background:#152235;border:1px solid #4a5c75;border-radius:6px;padding:8px 10px;cursor:pointer}.btn:hover,.btn[aria-pressed=true]{background:#29405b;border-color:#65d8ef}.btn:focus-visible,a:focus-visible{outline:3px solid #f5c777;outline-offset:3px}.text-small{font-size:13px}footer{margin-top:28px;color:#b4c2d5}#sw-detail{max-width:760px}#sw30-landscape #sw-stage{height:520px}</style></head><body><main><a href="https://github.com/sw30labs">SW30 Labs ↗</a><div id="sw30-landscape">
+<h2>SW30 research landscape</h2>
+<div class="viz-controls"><button type="button" class="btn" id="sw-orbit">Orbit once</button><button type="button" class="btn" id="sw-stop">Pause</button><button type="button" class="btn" id="sw-flat" aria-pressed="false">Top view</button><span class="text-small">Domain affinity × maturity · selected projects</span></div>
+<div id="sw-stage"><svg id="sw-space" role="img" aria-label="Research projects above a hardware, software and AI domain plane. Height represents maturity."></svg><div id="sw-nodes"></div></div>
+<div class="viz-row text-small"><span>◇ Frontier Experiments</span><span>● AI &amp; Computing Systems</span><span>■ Agentic Security &amp; Trust</span></div>
+<div id="sw-detail" class="text-small" aria-live="polite"></div>
+</div>
+<style>
+#sw30-landscape #sw-stage{position:relative;height:490px}#sw30-landscape #sw-space{width:100%;height:100%;overflow:visible}#sw30-landscape #sw-nodes{position:absolute;inset:0;pointer-events:none}#sw30-landscape .sw-point{position:absolute;pointer-events:auto;transform:translate(-50%,-50%)}#sw30-landscape svg text{fill:var(--foreground);font-size:12px}#sw30-landscape #sw-detail{min-height:90px;padding-top:12px}#sw30-landscape .sw-symbol{display:inline-block;margin-right:5px}
+</style>
+<script>
+(()=>{
+const root=document.getElementById('sw30-landscape'),svg=root.querySelector('#sw-space'),stage=root.querySelector('#sw-stage'),nodes=root.querySelector('#sw-nodes'),detail=root.querySelector('#sw-detail');
+const data=[
+{name:'Loopscope',x:.05,y:.66,z:4,p:1,url:'loopscope',stage:'Operational · personal workflow',note:'Flagship. Daily use reported by the owner; broader production readiness unverified.'},
+{name:'VideoCortex',x:.35,y:.53,z:2,p:1,url:'videocortex',stage:'PoC · owner-reported',note:'Value proposition unresolved. Next: compare one real video task against current practice.'},
+{name:'Singularity Atlas',x:-.25,y:.65,z:2,p:1,url:'singularity-atlas',stage:'PoC candidate',note:'Featured. README documents globe, signal streams and local briefs; execution not independently verified.'},
+{name:'AEGIS',x:0,y:0,z:0,p:2,url:'aegis-research',stage:'Idea',note:'HW + SW + AI research proposal. Next: test a bounded threat-model assumption.'},
+{name:'AI-OS-1',x:-.4,y:-.05,z:0,p:1,url:'AI-OS-1',stage:'Idea / design corpus',note:'Architecture design; no runtime yet. Next: Phase-0 measurements.'},
+{name:'H16 simulation',x:-.62,y:.1,z:1,p:0,stage:'Experiment',note:'RPC-H16 discrete-event simulation. Optical calibration remains open. Frontier flagship.'},
+{name:'H16 optics',x:-.85,y:-.7,z:0,p:0,stage:'Idea',note:'RPC-H16 physical concept. Sixteen logical channels do not prescribe physical geometry. No optical prototype.'}
+];
+let angle=-.45,flat=false,selected=0,anim=0;
+const marks=['◇','●','■'],colors=['var(--viz-series-3)','var(--viz-series-1)','var(--viz-series-2)'];
+const buttons=data.map((d,i)=>{const b=document.createElement('button');b.type='button';b.className='btn sw-point';b.setAttribute('aria-label',d.name+', '+d.stage);const span=document.createElement('span');span.className='sw-symbol';span.style.color=colors[d.p];span.textContent=marks[d.p];b.append(span,document.createTextNode(d.name));b.onclick=()=>{selected=i;show();draw()};nodes.append(b);return b});
+function show(){const d=data[selected];detail.replaceChildren();const strong=document.createElement('strong');strong.textContent=d.name+' · '+d.stage;detail.append(strong,document.createElement('br'),document.createTextNode(d.note+' '));if(d.url){const a=document.createElement('a');a.href='https://github.com/sw30labs/'+d.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Open project ↗';detail.append(a)}buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===selected)))}
+function draw(){const w=stage.clientWidth,h=490;const placed=[];svg.setAttribute('viewBox',`0 0 ${w} ${h}`);svg.replaceChildren();const scale=Math.min((w-70)/2.8,185),cx=w/2,cy=flat?240:377;
+function proj(x,y,z){const a=x*Math.cos(angle)-y*Math.sin(angle),b=x*Math.sin(angle)+y*Math.cos(angle);return[cx+a*scale,cy+b*scale*(flat?.8:.35)-z*(flat?0:65)]}
+function el(tag,attrs){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));svg.append(e);return e}
+function line(a,b,opacity=.3){el('line',{x1:a[0],y1:a[1],x2:b[0],y2:b[1],stroke:'var(--foreground)','stroke-opacity':opacity,'stroke-width':1})}
+const tri=[[-1,-.7],[1,-.7],[0,1]];for(let z=0;z<5;z++){if(flat&&z)continue;const pts=tri.map(([x,y])=>proj(x,y,z));el('polygon',{points:pts.map(p=>p.join(',')).join(' '),fill:z===0?'var(--viz-series-1)':'none','fill-opacity':.035,stroke:'var(--border)','stroke-width':1});if(!flat){const t=el('text',{x:8,y:cy-z*65-4});t.textContent=['Idea','Experiment','PoC','Pilot','Operational'][z]}}
+[[-1,-.7,'HW'],[1,-.7,'SW'],[0,1,'AI']].forEach(([x,y,label])=>{const p=proj(x,y,0);const t=el('text',{x:p[0],y:p[1]+25,'text-anchor':'middle'});t.textContent=label});
+data.forEach((d,i)=>{const p=proj(d.x,d.y,d.z),g=proj(d.x,d.y,0);if(!flat)line(p,g,.2);const b=buttons[i];let bx=p[0],by=p[1];if(flat)by+=(i%3-1)*42;bx=Math.max(b.offsetWidth/2+3,Math.min(w-b.offsetWidth/2-3,bx));const bw=b.offsetWidth,bh=b.offsetHeight;for(let tries=0;tries<20&&placed.some(q=>Math.abs(bx-q.x)<(bw+q.w)/2+5&&Math.abs(by-q.y)<(bh+q.h)/2+5);tries++)by-=bh+7;by=Math.max(bh/2+5,by);placed.push({x:bx,y:by,w:bw,h:bh});if(Math.abs(by-p[1])>5||Math.abs(bx-p[0])>5)line(p,[bx,by],.5);b.style.left=bx+'px';b.style.top=by+'px';b.style.zIndex=String(i===selected?20:5)});
+}
+root.querySelector('#sw-stop').onclick=()=>cancelAnimationFrame(anim);root.querySelector('#sw-flat').onclick=e=>{flat=!flat;e.currentTarget.setAttribute('aria-pressed',String(flat));draw()};root.querySelector('#sw-orbit').onclick=()=>{cancelAnimationFrame(anim);if(matchMedia('(prefers-reduced-motion: reduce)').matches){angle+=Math.PI/3;draw();return}const start=performance.now(),base=angle;function frame(now){const t=Math.min(1,(now-start)/6000);angle=base+t*Math.PI*2;draw();if(t<1)anim=requestAnimationFrame(frame)}anim=requestAnimationFrame(frame)};
+new ResizeObserver(draw).observe(stage);show();draw();
+})();
+</script>
+<footer>Height represents maturity, not importance. Positions are qualitative domain affinities, not percentages. This selected-project map is a first edition, not the full inventory. Animation changes the camera, not project maturity.<br><a href="https://github.com/sw30labs/.github/tree/main/research">Research Atlas and evidence →</a></footer></main></body></html>

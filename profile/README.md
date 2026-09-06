@@ -23,6 +23,9 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 
 | Project | Research focus | Current status |
 |---|---|---|
+| [Loopscope](https://github.com/sw30labs/loopscope) | Observability for agent workflows | **Flagship**; daily personal use reported by the owner |
+| [VideoCortex](https://github.com/sw30labs/videocortex) | Video understanding | PoC; practical value still under investigation |
+| [Singularity Atlas](https://github.com/sw30labs/singularity-atlas) | AI build-out signals, convergence and local briefs | Featured working-dashboard project; PoC assessment provisional |
 | [OSCAL Skills Guardrails](https://github.com/sw30labs/oscal-skills-guardrails) | Static + semantic admission and integrity checks for agent skills | Reference implementation; hardening questions remain |
 | [TSLIT-DSPy DGX](https://github.com/sw30labs/tslit-dspy-dgx) | Controlled model-integrity probes | Experimental evidence; negative findings and withdrawn work documented |
 | [Wiki vs RAG](https://github.com/sw30labs/wiki-vs-rag) | Retrieval quality, token and latency tradeoffs | Recorded four-arm study on one corpus |
@@ -33,6 +36,14 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 [**Research Atlas and evidence dossiers →**](https://github.com/sw30labs/.github/tree/main/research)
 
 Sixteen logical channels do not require sixteen physical faces. RPC-H16 has no demonstrated optical hardware or system-wide performance advantage yet. Resilient/space work is a research direction, not a claim of space qualification.
+
+## Explore the research landscape
+
+[![SW30 research landscape: domains and maturity](https://raw.githubusercontent.com/sw30labs/.github/main/research/landscape-preview.svg)](https://sw30labs.github.io/.github/)
+
+[**Open the animated, clickable landscape →**](https://sw30labs.github.io/.github/)
+
+Height means maturity, not importance. Select a project for its evidence and next milestone.
 
 ## The research engine
 
