@@ -37,6 +37,14 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 
 Sixteen logical channels do not require sixteen physical faces. RPC-H16 has no demonstrated optical hardware or system-wide performance advantage yet. Resilient/space work is a research direction, not a claim of space qualification.
 
+## Explore the research landscape
+
+[![SW30 research landscape: domains and maturity](https://raw.githubusercontent.com/sw30labs/.github/main/research/landscape-preview.svg)](https://sw30labs.github.io/.github/)
+
+[**Open the animated, clickable landscape →**](https://sw30labs.github.io/.github/)
+
+Height means maturity, not importance. Select a project for its evidence and next milestone.
+
 ## The research engine
 
 The **SW30 Research Engine** is a cross-cutting layer: local models, deterministic tools, simulations and recorded experiments, with selective frontier-model review. It supports all four programs.
