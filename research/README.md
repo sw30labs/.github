@@ -64,7 +64,7 @@ Cross-program research: [AEGIS](https://github.com/sw30labs/aegis-research), pri
 | [lance-3b-video-bf16](https://github.com/sw30labs/lance-3b-video-bf16) | ARCHIVE | documented; execution not independently reproduced |
 | [langgraph-checkpoints-vs-stores](https://github.com/sw30labs/langgraph-checkpoints-vs-stores) | REFERENCE | documented; execution not independently reproduced |
 | [longcat-video-avatar-1.5-mlx](https://github.com/sw30labs/longcat-video-avatar-1.5-mlx) | ARCHIVE | documented; execution not independently reproduced |
-| [loopscope](https://github.com/sw30labs/loopscope) | ACTIVE | documented; execution not independently reproduced |
+| [loopscope](https://github.com/sw30labs/loopscope) | FLAGSHIP | Operational in owner’s daily workflow; owner-reported, broader readiness unverified |
 | [ltx-2.3-mlx](https://github.com/sw30labs/ltx-2.3-mlx) | ARCHIVE | documented; execution not independently reproduced |
 | [mlx-distillation-explained](https://github.com/sw30labs/mlx-distillation-explained) | REFERENCE | documented; execution not independently reproduced |
 | [mlx-responses-api-server](https://github.com/sw30labs/mlx-responses-api-server) | ACTIVE | documented; execution not independently reproduced |
@@ -78,7 +78,7 @@ Cross-program research: [AEGIS](https://github.com/sw30labs/aegis-research), pri
 | [RepoBundle](https://github.com/sw30labs/RepoBundle) | REFERENCE | documented; execution not independently reproduced |
 | [screen-lens-dgx](https://github.com/sw30labs/screen-lens-dgx) | ACTIVE | documented; execution not independently reproduced |
 | [screen-lens-mlx](https://github.com/sw30labs/screen-lens-mlx) | ACTIVE | documented; execution not independently reproduced |
-| [singularity-atlas](https://github.com/sw30labs/singularity-atlas) | ACTIVE | documented; execution not independently reproduced |
+| [singularity-atlas](https://github.com/sw30labs/singularity-atlas) | ACTIVE | PoC candidate — README documents working dashboard; execution not independently verified |
 | [spark-serve](https://github.com/sw30labs/spark-serve) | ACTIVE | documented; execution not independently reproduced |
 | [stable-audio-3](https://github.com/sw30labs/stable-audio-3) | ARCHIVE | documented; execution not independently reproduced |
 | [STTbench](https://github.com/sw30labs/STTbench) | ARCHIVE | documented; execution not independently reproduced |
@@ -86,7 +86,7 @@ Cross-program research: [AEGIS](https://github.com/sw30labs/aegis-research), pri
 | [supertonic-3-mlx](https://github.com/sw30labs/supertonic-3-mlx) | EXPERIMENT | documented; execution not independently reproduced |
 | [tars-ai](https://github.com/sw30labs/tars-ai) | ACTIVE | documented; execution not independently reproduced |
 | [venture-pathfinder](https://github.com/sw30labs/venture-pathfinder) | ARCHIVE | documented; execution not independently reproduced |
-| [videocortex](https://github.com/sw30labs/videocortex) | ACTIVE | documented; execution not independently reproduced |
+| [videocortex](https://github.com/sw30labs/videocortex) | ACTIVE | PoC — owner-reported; value proposition unresolved |
 | [videocortex-spark](https://github.com/sw30labs/videocortex-spark) | ACTIVE | documented; execution not independently reproduced |
 | [wiki-vs-rag](https://github.com/sw30labs/wiki-vs-rag) | FLAGSHIP | documented; execution not independently reproduced |
 | [Word-to-Markdown-Converter](https://github.com/sw30labs/Word-to-Markdown-Converter) | ARCHIVE | documented; execution not independently reproduced |
@@ -106,3 +106,7 @@ No public repository assigned in this snapshot.
 |---|---|---|
 | [sst-autoresearch](https://github.com/sw30labs/sst-autoresearch) | ARCHIVE | documented; execution not independently reproduced |
 
+
+## Research landscape draft
+
+[Project positions, evidence and next milestones](landscape.md). Domain affinity, research program, editorial flagship status and maturity are separate dimensions.

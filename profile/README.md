@@ -23,6 +23,9 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 
 | Project | Research focus | Current status |
 |---|---|---|
+| [Loopscope](https://github.com/sw30labs/loopscope) | Observability for agent workflows | **Flagship**; daily personal use reported by the owner |
+| [VideoCortex](https://github.com/sw30labs/videocortex) | Video understanding | PoC; practical value still under investigation |
+| [Singularity Atlas](https://github.com/sw30labs/singularity-atlas) | AI build-out signals, convergence and local briefs | Featured working-dashboard project; PoC assessment provisional |
 | [OSCAL Skills Guardrails](https://github.com/sw30labs/oscal-skills-guardrails) | Static + semantic admission and integrity checks for agent skills | Reference implementation; hardening questions remain |
 | [TSLIT-DSPy DGX](https://github.com/sw30labs/tslit-dspy-dgx) | Controlled model-integrity probes | Experimental evidence; negative findings and withdrawn work documented |
 | [Wiki vs RAG](https://github.com/sw30labs/wiki-vs-rag) | Retrieval quality, token and latency tradeoffs | Recorded four-arm study on one corpus |

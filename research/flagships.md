@@ -1,6 +1,6 @@
 # Flagship research — evidence and next tests
 
-Three initial existing flagships are selected for inspectable implementation or experiment records. Selection is editorial, not a certificate of scientific validity. This pass read repository artifacts; it did not rerun hosted inference, hardware benchmarks, or the full source test suites.
+The initial three existing flagships are selected for inspectable implementation or experiment records. Selection is editorial, not a certificate of scientific validity. This pass read repository artifacts; it did not rerun hosted inference, hardware benchmarks, or the full source test suites.
 
 ## OSCAL Skills Guardrails
 
@@ -55,8 +55,20 @@ Three initial existing flagships are selected for inspectable implementation or 
 
 ## Design spotlight: AI-OS-1
 
-[AI-OS-1](https://github.com/sw30labs/AI-OS-1) is a model-aware distributed-inference **design corpus, not a runtime**. Its paper, frozen interfaces and [research ledger](https://github.com/sw30labs/AI-OS-1/blob/37c940c5fcc5cd4e515db5cdf45e88d350a803fb/research/ledger.md) make it a strong architecture spotlight. Implementation and claimed performance require the Phase-0 measurements specified by the project. It is ACTIVE/design-only here, rather than one of the three initial empirical/reference flagships.
+[AI-OS-1](https://github.com/sw30labs/AI-OS-1) is a model-aware distributed-inference **design corpus, not a runtime**. Its paper, frozen interfaces and [research ledger](https://github.com/sw30labs/AI-OS-1/blob/37c940c5fcc5cd4e515db5cdf45e88d350a803fb/research/ledger.md) make it a strong architecture spotlight. Implementation and claimed performance require the Phase-0 measurements specified by the project. It is ACTIVE/design-only here, rather than one of the initial empirical/reference flagships.
 
 ## Frontier flagship: RPC-H16
 
 **Planned research:** a hexadecimal-native architecture with sixteen logical optical channels 0–F, a 3D topology, fault injection and intermittent energy. Sixteen logical channels do not prescribe sixteen physical faces. Simulation precedes physical optics. No optical prototype, energy advantage or space qualification is claimed. Its initial work is staged privately; no private repository details are exposed here.
+
+## Loopscope
+
+**Flagship designation:** owner decision, 2026-09-06.
+
+**Evidence:** the owner reports daily personal use and positive user feedback. This is attributed usage evidence, not an independently measured adoption study.
+
+**Program:** AI & Computing Systems; cross-cutting Research Engine observability.
+
+**Maturity:** operational within the owner's workflow. Broader production readiness remains unverified.
+
+**Next milestone:** document the daily workflow, failure/recovery behavior and one reproducible example showing how observability helps diagnose an agent run.
