@@ -9,12 +9,12 @@
     "RSS": "Resilient & Space Systems",
     "FE": "Frontier Experiments"
   },
-  "scope": "Public repositories only; snapshot, not live telemetry.",
+  "scope": "Public repository baseline plus AEGIS research edition added 2026-09-06; not live telemetry.",
   "counts": {
     "REFERENCE": 10,
     "ARCHIVE": 23,
+    "EXPERIMENT": 12,
     "ACTIVE": 21,
-    "EXPERIMENT": 11,
     "FLAGSHIP": 3,
     "LEGACY": 2
   },
@@ -78,6 +78,30 @@
       "evidence_paths": [],
       "evidence_path_count": 0,
       "evidence_scope": "README and file tree; filenames are discovery signals, not validation. Shortlist has deeper artifact inspection."
+    },
+    {
+      "name": "aegis-research",
+      "url": "https://github.com/sw30labs/aegis-research",
+      "visibility": "public",
+      "is_archived": false,
+      "is_fork": false,
+      "primary_language": null,
+      "description": "Hardware, governed software and local AI for auditable security assessment.",
+      "primary_program": "Agentic Security & Trust",
+      "secondary_programs": [
+        "AI & Computing Systems"
+      ],
+      "program_code": "AST",
+      "research_engine": false,
+      "classification": "EXPERIMENT",
+      "confidence": "high",
+      "rationale": "Public research proposal with architecture, threat model and planned experiments; no implemented appliance or measured results.",
+      "maturity": "research proposal; no implementation",
+      "recommended_action": "Implement the smallest E001 workflow bottleneck baseline before promotion.",
+      "readme_status": "retrieved",
+      "evidence_scope": "Reviewed public research edition; protocols are planned, not results.",
+      "added_at": "2026-09-06",
+      "default_branch": "main"
     },
     {
       "name": "agent-stack",
