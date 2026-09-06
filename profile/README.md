@@ -1,7 +1,8 @@
 <p align="right">
   <img src="https://raw.githubusercontent.com/sw30labs/.github/main/docs/assets/aineko.svg" alt="Aineko" title="Aineko" height="48">
 </p>
-**Independent Applied Research**
+
+# Independent Applied Research
 
 We explore agentic security, local and distributed AI, resilient systems, and unusual computing architectures through small, inspectable experiments.
 
