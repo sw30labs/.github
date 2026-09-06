@@ -47,6 +47,8 @@ Ten source-grounded assessments, a holistic portfolio review, and an adjustable 
 
 [Full assessments and method](https://github.com/sw30labs/.github/tree/main/research/porter)
 
+[**About SW30 Labs / How humans and agents work together →**](https://sw30labs.github.io/.github/about.html)
+
 ## The research engine
 
 The **SW30 Research Engine** is a cross-cutting layer: local models, deterministic tools, simulations and recorded experiments, with selective frontier-model review. It supports all four programs.
