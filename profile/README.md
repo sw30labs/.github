@@ -35,9 +35,9 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 
 ## Explore the research landscape
 
-[![SW30 research landscape: domains and maturity](https://raw.githubusercontent.com/sw30labs/.github/main/research/landscape-preview.svg)](https://sw30labs.github.io/.github/)
+[![SW30 research landscape: animated preview (slow orbit)](https://raw.githubusercontent.com/sw30labs/.github/main/research/landscape-orbit.gif)](https://sw30labs.github.io/.github/)
 
-[**Open the animated, clickable landscape →**](https://sw30labs.github.io/.github/)
+*Animated preview (slow orbit). [Full interactive version →](https://sw30labs.github.io/.github/)*
 
 Explore the broader portfolio, including Singularity Atlas, VideoCortex, design studies and the RPC-H16 frontier experiment. Height means maturity, not importance; each project links to evidence and its next milestone. Physical optics and space qualification remain unproven.
 

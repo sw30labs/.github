@@ -21,6 +21,10 @@ VideoCortex: validate usefulness before adding scope. Singularity Atlas: assess 
 
 Animation in the first draft changes the viewing angle only; it does not fabricate a history of maturity. Add time replay only after dated evidence exists. Private projects and internal contents are excluded; RPC-H16 uses only the already approved public research description.
 
+## Visual preview
+
+[Animated orbit preview (GIF)](landscape-orbit.gif) · [Interactive landscape on GitHub Pages](https://sw30labs.github.io/.github/)
+
 ## Portfolio priorities
 
 [Interactive Five Forces and weekly allocation](https://sw30labs.github.io/.github/porter.html). Competitive pressure, evidence maturity and weekly attention are separate dimensions.
