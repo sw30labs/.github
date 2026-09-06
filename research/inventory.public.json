@@ -14,8 +14,8 @@
     "REFERENCE": 10,
     "ARCHIVE": 23,
     "EXPERIMENT": 12,
-    "ACTIVE": 20,
-    "FLAGSHIP": 4,
+    "ACTIVE": 19,
+    "FLAGSHIP": 5,
     "LEGACY": 2
   },
   "repositories": [
@@ -1128,9 +1128,9 @@
       "primary_program": "AI & Computing Systems",
       "program_code": "ACS",
       "research_engine": true,
-      "classification": "ACTIVE",
+      "classification": "FLAGSHIP",
       "confidence": "medium",
-      "rationale": "README describes an implemented tool or maintained design corpus; recommend continued research attention, not a claim of deployment quality.",
+      "rationale": "Research Engine flagship added with the portfolio assessment; editorial designation, net human time savings remain unmeasured.",
       "maturity": "documented; execution not independently reproduced",
       "recommended_action": "Retain; add research record when next touched.",
       "family": null,

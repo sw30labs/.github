@@ -5,7 +5,8 @@ Positions describe qualitative HW/SW/AI affinity, not measured percentages. Heig
 | Project | Domain affinity | Maturity and evidence | Next milestone |
 |---|---|---|---|
 | Loopscope | SW + AI | Operational in personal workflow, owner-reported; flagship | Reproducible workflow and recovery example |
-| VideoCortex | SW + AI | PoC, owner-reported; usefulness unresolved | Compare one real video task against current practice |
+| Nightshift | SW + AI | Implemented; Research Engine flagship; net savings unmeasured | Measure accepted work after human review and repair |
+| VideoCortex | SW + AI | Local TRIBE v2 brain-response instrument; PoC | Verify numerical parity and one research use case |
 | Singularity Atlas | SW + AI; observes HW infrastructure | PoC candidate from README, not independently rerun | Reproduce dashboard and assess decision usefulness |
 | AEGIS | HW + SW + AI | Idea; public research proposal | Test one bounded threat-model assumption |
 | AI-OS-1 | HW + SW + AI | Idea/design corpus | Phase-0 measurements |
@@ -19,3 +20,7 @@ Driftlab + Ontology merits deeper investigation. Circuit Breaker autonomy is a p
 VideoCortex: validate usefulness before adding scope. Singularity Atlas: assess signal quality and reproducibility. Loopscope: preserve daily utility while documenting it.
 
 Animation in the first draft changes the viewing angle only; it does not fabricate a history of maturity. Add time replay only after dated evidence exists. Private projects and internal contents are excluded; RPC-H16 uses only the already approved public research description.
+
+## Portfolio priorities
+
+[Interactive Five Forces and weekly allocation](https://sw30labs.github.io/.github/porter.html). Competitive pressure, evidence maturity and weekly attention are separate dimensions.

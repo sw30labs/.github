@@ -72,3 +72,11 @@ The initial three existing flagships are selected for inspectable implementation
 **Maturity:** operational within the owner's workflow. Broader production readiness remains unverified.
 
 **Next milestone:** document the daily workflow, failure/recovery behavior and one reproducible example showing how observability helps diagnose an agent run.
+
+## Nightshift
+
+**Research Engine flagship**, added with the 2026-09-06 portfolio assessment. Implemented bounded overnight coding workflow with frozen briefs, host checks and reviewable branches. This designation does not certify autonomous reliability or measured productivity.
+
+**Next milestone:** track accepted work and net human time saved after briefing, review, repair and maintenance; retain failed runs in the denominator.
+
+[Porter assessment](porter/nightshift-porter.md) · [Interactive portfolio priorities](https://sw30labs.github.io/.github/porter.html)
