@@ -27,6 +27,7 @@ We explore agentic security, local and distributed AI, resilient systems, and un
 | [TSLIT-DSPy DGX](https://github.com/sw30labs/tslit-dspy-dgx) | Controlled model-integrity probes | Experimental evidence; negative findings and withdrawn work documented |
 | [Wiki vs RAG](https://github.com/sw30labs/wiki-vs-rag) | Retrieval quality, token and latency tradeoffs | Recorded four-arm study on one corpus |
 | [AI-OS-1](https://github.com/sw30labs/AI-OS-1) | Model-aware distributed inference | Design corpus; no runtime yet |
+| [AEGIS](https://github.com/sw30labs/aegis-research) | Hardware, governed software and local AI for auditable security assessment | Experiment — research proposal; no implementation yet |
 | **RPC-H16 / Rubik’s Photonic Computer** | Sixteen logical optical channels, 3D topology and graceful degradation | Planned Frontier flagship; simulation first |
 
 [**Research Atlas and evidence dossiers →**](https://github.com/sw30labs/.github/tree/main/research)

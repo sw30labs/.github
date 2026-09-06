@@ -10,8 +10,11 @@ This is a small research map alongside the [existing wiki](https://github.com/sw
 
 ## Agentic Security & Trust
 
+[**AEGIS**](https://github.com/sw30labs/aegis-research) explores hardware/software/AI convergence for governed security assessment. **EXPERIMENT — research proposal**; no appliance implementation or measured results. Primary program: Agentic Security & Trust; secondary: AI & Computing Systems.
+
 | Project | Class | Evidence state |
 |---|---|---|
+| [aegis-research](https://github.com/sw30labs/aegis-research) | EXPERIMENT | Research proposal; no implementation or measured results |
 | [agentic-ai-pentesting](https://github.com/sw30labs/agentic-ai-pentesting) | REFERENCE | documented; execution not independently reproduced |
 | [driftlab-dgx](https://github.com/sw30labs/driftlab-dgx) | ACTIVE | documented; execution not independently reproduced |
 | [driftlab-mlx](https://github.com/sw30labs/driftlab-mlx) | ACTIVE | documented; execution not independently reproduced |
@@ -35,6 +38,8 @@ This is a small research map alongside the [existing wiki](https://github.com/sw
 | [tslit-dspy-dgx](https://github.com/sw30labs/tslit-dspy-dgx) | FLAGSHIP | documented; execution not independently reproduced |
 
 ## AI & Computing Systems
+
+Cross-program research: [AEGIS](https://github.com/sw30labs/aegis-research), primarily in Agentic Security & Trust, studies the integration of local inference hardware, software enforcement and AI.
 
 | Project | Class | Evidence state |
 |---|---|---|
