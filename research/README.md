@@ -8,6 +8,18 @@ This is a small research map alongside the [existing wiki](https://github.com/sw
 
 [Portfolio priorities and Five Forces](https://sw30labs.github.io/.github/porter.html) · [Full assessments](porter/README.md) · [Flagship evidence](flagships.md) · [Research method and template](template/README.md) · [Research Engine](research-engine.md) · [Public machine-readable inventory](inventory.public.json)
 
+## Start with inspectable work
+
+| Project | Evidence to inspect |
+|---|---|
+| [Loopscope](flagships.md#loopscope) | Daily use reported by the owner; broader readiness unverified. |
+| [Nightshift](flagships.md#nightshift) | Implemented bounded workflow and reviewable branches; net time savings under evaluation. |
+| [OSCAL Skills Guardrails](flagships.md#oscal-skills-guardrails) | Reference implementation and linked test sources; hardening limits documented. |
+| [TSLIT-DSPy DGX](flagships.md#tslit-dspy-dgx) | Recorded synthetic and live probes, including negative findings and withdrawn work. |
+| [Wiki vs RAG](flagships.md#wiki-vs-rag) | Saved four-arm study, per-run results and metadata; one-corpus limits apply. |
+
+The full inventory below includes proposals and documented projects that have not been independently reproduced. These five entry points distinguish use, implementation and recorded studies without claiming equivalent validation.
+
 ## Agentic Security & Trust
 
 [**AEGIS**](https://github.com/sw30labs/aegis-research) explores hardware/software/AI convergence for governed security assessment. **EXPERIMENT — research proposal**; no appliance implementation or measured results. Primary program: Agentic Security & Trust; secondary: AI & Computing Systems.
