@@ -5,8 +5,6 @@
   <img src="https://raw.githubusercontent.com/sw30labs/.github/main/docs/assets/sw30-logo-lockup.png" alt="SW30 Labs" height="120">
 </p>
 
-# SW30 Labs
-
 **Independent Applied Research**
 
 We explore agentic security, local and distributed AI, resilient systems, and unusual computing architectures through small, inspectable experiments.
